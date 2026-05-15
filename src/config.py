@@ -134,7 +134,14 @@ def load_config(path: str | Path = "config.yaml") -> Config:
     try:
         raw = yaml.safe_load(config_path.read_text(encoding="utf-8")) or {}
     except yaml.YAMLError as exc:
-        raise ConfigError(f"Не удалось распарсить YAML: {exc}") from exc
+        raise ConfigError(
+            f"Не удалось распарсить config.yaml как YAML:\n{exc}\n\n"
+            "Самые частые причины:\n"
+            "  · Неправильный отступ (YAML чувствителен к пробелам, табы нельзя)\n"
+            "  · Незакрытые кавычки\n"
+            "  · Лишние двоеточия\n"
+            "Сравни свой файл с config.example.yaml — там образец."
+        ) from exc
 
     try:
         cfg = Config(**raw)

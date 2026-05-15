@@ -13,7 +13,16 @@ if TYPE_CHECKING:  # pragma: no cover
     from src.portfolio_loader import Position
 
 
-SYSTEM_EXEC_SUMMARY = """
+_ANTI_HALLUCINATION = (
+    "CRITICAL: Use ONLY numeric values that appear in the JSON data provided "
+    "to you in the user message. Do NOT invent percentages, prices, beta values, "
+    "drawdown numbers, or any other statistics. If a number is needed but not "
+    "given — describe qualitatively (\"умеренная концентрация\") instead of "
+    "fabricating a number. Never reference cash amounts, percentages, or "
+    "portfolio sizes that contradict the provided data."
+)
+
+SYSTEM_EXEC_SUMMARY = f"""
 You are a senior portfolio analyst writing the executive summary for a weekly
 investor report.
 
@@ -25,25 +34,33 @@ Tone: informational, not advisory.
 DO NOT give buy/sell recommendations, price predictions, or use hype language.
 DO highlight notable changes, explain context, note risks worth monitoring,
 and connect signals to portfolio impact.
+
+{_ANTI_HALLUCINATION}
 """.strip()
 
-SYSTEM_POSITION = """
+SYSTEM_POSITION = f"""
 You are writing a one-paragraph commentary for a single portfolio position,
 to be embedded into a weekly PDF report.
 
 Style: professional, concrete, in Russian. 3-5 sentences max.
 Reference price action, signals, and material context. No advice.
+
+{_ANTI_HALLUCINATION}
 """.strip()
 
-SYSTEM_RISK = """
+SYSTEM_RISK = f"""
 You are writing a 2-3 paragraph risk commentary for a portfolio. Russian, professional.
 Cover: beta, top correlations, drawdown context, concentration concerns.
+
+{_ANTI_HALLUCINATION}
 """.strip()
 
-SYSTEM_OUTLOOK = """
+SYSTEM_OUTLOOK = f"""
 You are writing the 'forward week' section of a weekly investor report.
 Russian, 2-3 paragraphs. Connect upcoming earnings and macro events to portfolio impact.
 No predictions about price direction. Highlight what to monitor.
+
+{_ANTI_HALLUCINATION}
 """.strip()
 
 SYSTEM_RECOMMENDATIONS = """
@@ -53,9 +70,11 @@ Start each line with a verb. No buy/sell calls.
 Return one bullet per line, prefixed with '• '.
 """.strip()
 
-SYSTEM_DAILY = """
+SYSTEM_DAILY = f"""
 You are writing a one-paragraph (1-2 sentences) morning observation in Russian
 for an investor's daily summary. Factual, no hype, no predictions.
+
+{_ANTI_HALLUCINATION}
 """.strip()
 
 

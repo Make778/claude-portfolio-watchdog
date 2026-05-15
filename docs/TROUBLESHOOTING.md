@@ -202,6 +202,56 @@ thresholds:
 
 ---
 
+## 💻 Локальный запуск (опционально)
+
+### ❌ `pip install -r requirements.txt` падает на Python 3.14
+
+На очень свежих версиях Python иногда нет готовых wheel'ов для
+тяжёлых пакетов (`numpy`, `pandas`, `matplotlib`), и pip пытается
+скомпилировать их из исходников — это часто падает на Windows без
+Build Tools.
+
+**Решение:** используй **Python 3.11 или 3.12** для локального запуска.
+В GitHub Actions всегда используется 3.11 — там проблем не будет.
+
+```powershell
+# Скачай Python 3.11: https://www.python.org/downloads/release/python-3119/
+py -3.11 -m pip install -r requirements.txt
+```
+
+### ❌ `config.yaml` после правки в GitHub Web UI выдаёт «YAML parse error»
+
+YAML очень чувствителен к **отступам и табам**.
+
+Самые частые ошибки:
+- Случайно поставил **табы** вместо пробелов — переведи обратно на пробелы.
+- Сдвинул отступ на одну позицию — сравни с `config.example.yaml`.
+- Лишняя пустая строка внутри списка.
+
+GitHub Web UI **показывает табы серым крестиком** в нижней панели редактора —
+если видишь их в config.yaml, удали.
+
+### ❌ DNS блокирует `api.github.com` или другие сервисы
+
+Если ты используешь продукт **локально на Windows**, и `pip install` или
+`git push` падает с SSL-ошибкой типа `certificate is valid for dns.google,
+not api.github.com` — у тебя в `hosts`-файле перехвачены DNS-записи
+(обычно ставит активатор Windows / антипиратский софт).
+
+**Решение:** запусти PowerShell от админа и выполни:
+
+```powershell
+$hosts = "C:\Windows\System32\drivers\etc\hosts"
+(Get-Content $hosts) | Where-Object {
+  $_ -notmatch "8\.8\.4\.4\s+(codeload\.github\.com|api\.github\.com)"
+} | Set-Content $hosts -Encoding UTF8
+ipconfig /flushdns
+```
+
+В GitHub Actions этой проблемы нет.
+
+---
+
 ## 🐛 Если ничего не помогает
 
 1. Открой issue в репо: **Issues → New issue**.

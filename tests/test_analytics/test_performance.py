@@ -82,3 +82,24 @@ def test_get_top_movers():
     laggard_tickers = [t for t, _ in movers["laggards"]]
     assert leader_tickers[0] == "B"
     assert laggard_tickers[0] == "C"
+
+
+def test_get_top_movers_no_duplicate_tickers_in_small_portfolio():
+    """Regression: для портфеля из <2n позиций лидеры и аутсайдеры
+    не должны пересекаться. Раньше один и тот же тикер мог попасть в обе колонки."""
+    market = _FakeMarket(
+        {
+            "A": _series(100, 110),
+            "B": _series(100, 105),
+            "C": _series(100, 102),
+            "D": _series(100, 98),
+            "E": _series(100, 90),
+        }
+    )
+    movers = PerformanceAnalytics(market).get_top_movers(
+        [_Pos(t) for t in "ABCDE"], n=3
+    )
+    leaders = {t for t, _ in movers["leaders"]}
+    laggards = {t for t, _ in movers["laggards"]}
+    assert leaders.isdisjoint(laggards), \
+        f"Duplicate tickers in leaders+laggards: {leaders & laggards}"

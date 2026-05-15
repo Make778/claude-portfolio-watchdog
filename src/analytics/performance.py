@@ -154,11 +154,15 @@ class PerformanceAnalytics:
         ranked = sorted(
             returns.items(), key=lambda x: x[1]["return_percent"], reverse=True
         )
-        return {
-            "leaders": [
-                (ticker, data["return_percent"]) for ticker, data in ranked[:n]
-            ],
-            "laggards": [
-                (ticker, data["return_percent"]) for ticker, data in ranked[-n:][::-1]
-            ],
-        }
+        leaders = [(ticker, data["return_percent"]) for ticker, data in ranked[:n]]
+        leader_tickers = {ticker for ticker, _ in leaders}
+        # Аутсайдеры берутся из НИЖНЕЙ части ranked, и мы исключаем тикеры, уже
+        # попавшие в лидеры — иначе для портфелей <2n позиций таблицы пересекались бы.
+        laggards: list[tuple[str, float]] = []
+        for ticker, data in reversed(ranked):
+            if ticker in leader_tickers:
+                continue
+            laggards.append((ticker, data["return_percent"]))
+            if len(laggards) == n:
+                break
+        return {"leaders": leaders, "laggards": laggards}
