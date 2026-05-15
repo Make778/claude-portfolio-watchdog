@@ -2,9 +2,9 @@
 
 # 🤖 Claude Portfolio Watchdog
 
-**AI-powered 24/7 monitoring for your IBKR portfolio**
+**AI-наблюдатель за твоим портфелем в Interactive Brokers — 24/7**
 
-[Features](#features) · [Quick Start](#quick-start) · [Documentation](#documentation) · [Disclaimer](#disclaimer)
+[Что это](#что-это) · [Возможности](#возможности) · [Быстрый старт](#быстрый-старт) · [Документация](#документация) · [Дисклеймер](#дисклеймер)
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -12,61 +12,98 @@
 
 </div>
 
-## What is this?
+## Что это
 
-A complete AI analytics system that monitors your Interactive Brokers portfolio
-24/7, detects critical signals, and generates Bloomberg-quality weekly reports.
+Готовая AI-система, которая 24/7 следит за твоим портфелем в Interactive
+Brokers, ловит важные сигналы и присылает их в Telegram. По воскресеньям —
+премиум PDF-отчёт уровня инвестбанка.
 
-Powered by Claude (Anthropic). Runs on GitHub Actions. Costs ~$1.50/month in API
-fees — no SaaS subscription, no servers, no databases. All state is stored as
-files inside your forked repository.
+Работает на **Claude API** (Anthropic) и **GitHub Actions**. Никакого
+сервера, никакого Docker, никакой подписки на SaaS. Все данные остаются в
+твоём приватном GitHub-репозитории. Расходы — **~$1.50 в месяц** на Claude.
 
-## Features
+## Возможности
 
-**Seven monitoring streams:**
+**Семь типов мониторинга:**
 
-- 🚨 Insider trading (SEC Form 4) — with cluster detection
-- 📊 Analyst rating changes from major banks (Goldman, MS, JPM, …)
-- ⚡ Significant price movements with S&P 500 context
-- 📰 News filtered by Claude (1–10 importance score)
-- 📅 Earnings calendar (3-day pre-warning + day-of)
-- 🌐 Macro events (FOMC, CPI, PPI, NFP, GDP)
-- 📈 Volatility & sector rotation (VIX, sector ETFs)
+- 🚨 **Инсайдерские сделки** (SEC Form 4) — с детектом кластеров
+- 📊 **Изменения рейтингов аналитиков** от крупных банков (Goldman, Morgan Stanley, JPM…)
+- ⚡ **Резкие движения цены** с контекстом S&P 500
+- 📰 **Новости с AI-фильтром Claude** (1–10 баллов важности)
+- 📅 **Календарь earnings** (за 3 дня до публикации + день публикации)
+- 🌐 **Макро-события** (FOMC, CPI, PPI, NFP, GDP)
+- 📈 **Волатильность и ротация секторов** (VIX, sector ETFs)
 
-**Premium analytics:**
+**Премиум-аналитика:**
 
-- Daily morning summary in Telegram
-- Weekly 10–15 page PDF report (dark or light theme)
-- Risk metrics — Beta, correlations, drawdowns, VaR
-- Performance vs benchmark
-- AI insights from Claude
+- ☀️ Ежедневная утренняя сводка в Telegram
+- 📊 Еженедельный PDF-отчёт на 10–15 страниц (тёмная / светлая тема)
+- 🛡 Риск-метрики — Beta, корреляции, просадки, VaR
+- 📉 Сравнение с бенчмарком (по умолчанию SPY)
+- 🤖 Аналитические наблюдения от Claude
 
-## Quick Start
+## Быстрый старт
 
-1. 📱 Create a Telegram bot via [@BotFather](https://t.me/BotFather) and grab the token.
-2. 🔑 Get a [Claude API key](https://console.anthropic.com/) (~$5 covers 3–4 months).
-3. 📋 **Use this template** to create your own private repo.
-4. ⚙️ Edit `config.yaml` — set tickers, thresholds, schedule.
-5. 🔐 Add three **GitHub Actions secrets**: `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`, `CLAUDE_API_KEY`.
-6. 💼 Export your IBKR Position Report as CSV and drop it in `portfolio/`.
-7. 🚀 Enable Actions in repository settings — the bot will run on its schedule.
+1. 📱 Создай Telegram-бота через [@BotFather](https://t.me/BotFather) и сохрани его токен
+2. 🔑 Получи [API-ключ Claude](https://console.anthropic.com/) (~$5 хватит на 3–4 месяца)
+3. 📋 Нажми зелёную кнопку **"Use this template"** вверху страницы → создай свой репозиторий
+4. ⚙️ Открой `config.yaml` через веб-редактор GitHub и заполни список тикеров
+5. 🔐 Добавь **три секрета** в Settings → Secrets and variables → Actions:
+   - `TELEGRAM_BOT_TOKEN`
+   - `TELEGRAM_CHAT_ID`
+   - `CLAUDE_API_KEY`
+6. 💼 Экспортируй CSV-отчёт о позициях из IBKR и загрузи в папку `portfolio/`
+7. 🚀 Открой вкладку **Actions**, разреши workflows — бот начнёт работать по расписанию
 
-**Total setup time: ~20 minutes.** Step-by-step guide with screenshots:
-[INSTRUCTION.md](INSTRUCTION.md).
+**Общее время установки: ~20–30 минут.** Полная пошаговая инструкция со скриншотами:
+[**INSTRUCTION.md**](INSTRUCTION.md).
 
-## Documentation
+## Документация
 
-- 📘 [Full installation guide (RU)](INSTRUCTION.md)
-- 🛠 [Troubleshooting](docs/TROUBLESHOOTING.md)
-- 🔧 [Customization with Claude Code](docs/CUSTOMIZATION.md)
-- 💰 [API costs breakdown](docs/API_COSTS.md)
+- 📘 [Полная инструкция по установке](INSTRUCTION.md) — со скриншотами, для непрограммистов
+- 🛠 [Решение типовых проблем](docs/TROUBLESHOOTING.md) — 15+ разобранных случаев
+- 🔧 [Кастомизация через Claude Code](docs/CUSTOMIZATION.md) — готовые промпты для доработок
+- 💰 [Расходы на API](docs/API_COSTS.md) — детальная разбивка ~$1.50 / мес
+- 📝 [История изменений](docs/CHANGELOG.md)
 
-## Disclaimer
+## Что ты получишь после установки
 
-This is **NOT investment advice**. All data is collected from public sources.
-AI analysis is informational only and does not replace professional financial
-counsel. All trading decisions remain entirely with the user.
+**Алерты в реальном времени** в Telegram, когда происходит что-то важное:
 
-## License
+```
+🆘 КРИТИЧНО — $TSLA
 
-[MIT](LICENSE)
+Кластер инсайдерских продаж: 4 инсайдера продали
+$100M+ за 30 дней:
+  • Robyn Denholm (Chair) — $33M
+  • Elon Musk — $25M
+  • Vaibhav Taneja (CFO) — $20M
+  • James Murdoch — $22M
+
+🤖 Claude: статистически значимый паттерн.
+Исторически предшествует коррекциям 15-30%.
+
+Источник: SEC EDGAR
+```
+
+**Утренняя сводка по будням в 9:00 МСК** — состояние портфеля, лидеры/аутсайдеры, события дня.
+
+**Еженедельный PDF** — 10–15 страниц с анализом, графиками, риск-метриками, разбором позиций и наблюдениями Claude.
+
+## Безопасность данных
+
+- Никакого SaaS — код работает в твоём GitHub-репозитории
+- Никаких подключений к брокерскому API — только чтение CSV
+- Никаких автоматических сделок — это инструмент мониторинга
+- Все секреты — в GitHub Secrets, недоступны для просмотра
+
+## Дисклеймер
+
+**Это НЕ инвестиционная рекомендация.** Все данные получены из публичных
+источников. Аналитические наблюдения сгенерированы AI и не заменяют
+консультацию профессионального финансового советника. Все торговые
+решения принимает исключительно пользователь.
+
+## Лицензия
+
+[MIT](LICENSE) — используй как хочешь, но без гарантий.
