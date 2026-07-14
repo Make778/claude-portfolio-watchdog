@@ -4,7 +4,13 @@
 tickers:
   - AAPL
   - SPUS
-
+  - MSFT
+  - NVDA
+  - GOOGL
+  - META
+  - TSLA
+  - SPY
+  
 monitoring:
   insider_trades: true
   analyst_ratings: true
