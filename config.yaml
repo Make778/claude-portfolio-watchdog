@@ -1,7 +1,9 @@
 # Заглушка: копия config.example.yaml без чувствительных значений.
 # Отредактируй перед запуском. Секреты не сюда — в .env / GitHub Secrets.
 
-tickers: []
+tickers:
+  - AAPL
+  - SPUS
 
 monitoring:
   insider_trades: true
