@@ -1,0 +1,34 @@
+{
+  "macro_MARKET_2026-07-14_b9c04f65724a": {
+    "expires_at": 1784595237.9885612,
+    "sent_at": "2026-07-14T00:53:57.988556",
+    "severity": "high",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "CPI Release сегодня"
+  },
+  "price_NVDA_2026-07-14_f0da314a204c": {
+    "expires_at": 1784595237.6232178,
+    "sent_at": "2026-07-14T00:53:57.623211",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: упал на 3.52%"
+  },
+  "price_TSLA_2026-07-14_0bd56f09b89c": {
+    "expires_at": 1784595237.802964,
+    "sent_at": "2026-07-14T00:53:57.802957",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "TSLA",
+    "title": "TSLA: упал на 3.19%"
+  },
+  "volatility_SECTORS_2026-07-14_5d8e95dcbb0a": {
+    "expires_at": 1784595238.162995,
+    "sent_at": "2026-07-14T00:53:58.162989",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.8%, Healthcare -1.8%"
+  }
+}
