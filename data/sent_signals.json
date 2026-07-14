@@ -7,6 +7,14 @@
     "ticker": "MARKET",
     "title": "CPI Release сегодня"
   },
+  "price_NVDA_2026-07-14_94e5b3e07461": {
+    "expires_at": 1784656538.8774648,
+    "sent_at": "2026-07-14T17:55:38.877454",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: вырос на 3.80%"
+  },
   "price_NVDA_2026-07-14_f0da314a204c": {
     "expires_at": 1784595237.6232178,
     "sent_at": "2026-07-14T00:53:57.623211",
@@ -22,6 +30,14 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: упал на 3.19%"
+  },
+  "volatility_SECTORS_2026-07-14_0a22d0573a87": {
+    "expires_at": 1784656539.0006733,
+    "sent_at": "2026-07-14T17:55:39.000629",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Communications +2.0%, Healthcare -2.3%"
   },
   "volatility_SECTORS_2026-07-14_5d8e95dcbb0a": {
     "expires_at": 1784595238.162995,
