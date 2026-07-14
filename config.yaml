@@ -10,6 +10,7 @@ tickers:
   - META
   - TSLA
   - SPY
+  - ITSS.ITS
   
 monitoring:
   insider_trades: true
