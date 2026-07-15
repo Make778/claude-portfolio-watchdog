@@ -7,6 +7,14 @@
     "ticker": "MARKET",
     "title": "CPI Release сегодня"
   },
+  "price_AAPL_2026-07-15_0d29f41a17eb": {
+    "expires_at": 1784743264.999353,
+    "sent_at": "2026-07-15T18:01:04.999339",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "AAPL",
+    "title": "AAPL: вырос на 4.05%"
+  },
   "price_AAPL_2026-07-15_2531b46b5b9a": {
     "expires_at": 1784736744.309709,
     "sent_at": "2026-07-15T16:12:24.309699",
@@ -14,6 +22,14 @@
     "signal_type": "price",
     "ticker": "AAPL",
     "title": "AAPL: вырос на 3.78%"
+  },
+  "price_GOOGL_2026-07-15_8f770a99ef0c": {
+    "expires_at": 1784743265.1180325,
+    "sent_at": "2026-07-15T18:01:05.118019",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: вырос на 3.46%"
   },
   "price_GOOGL_2026-07-15_dfe5e458299e": {
     "expires_at": 1784736744.5798032,
@@ -150,6 +166,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Financials +3.1%, Healthcare -2.2%"
+  },
+  "volatility_SECTORS_2026-07-15_b1527a2f1834": {
+    "expires_at": 1784743265.2682238,
+    "sent_at": "2026-07-15T18:01:05.268210",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Communications +2.4%, Technology -2.3%"
   },
   "volatility_SECTORS_2026-07-15_d58fcf958749": {
     "expires_at": 1784736744.8505707,
