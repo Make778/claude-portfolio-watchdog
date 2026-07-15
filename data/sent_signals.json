@@ -23,6 +23,14 @@
     "ticker": "AAPL",
     "title": "AAPL: вырос на 3.78%"
   },
+  "price_AAPL_2026-07-15_667ac2ec19ba": {
+    "expires_at": 1784754092.909492,
+    "sent_at": "2026-07-15T21:01:32.909480",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "AAPL",
+    "title": "AAPL: вырос на 4.01%"
+  },
   "price_AAPL_2026-07-15_d17f21baf868": {
     "expires_at": 1784750430.469974,
     "sent_at": "2026-07-15T20:00:30.469960",
@@ -30,6 +38,14 @@
     "signal_type": "price",
     "ticker": "AAPL",
     "title": "AAPL: вырос на 4.01%"
+  },
+  "price_GOOGL_2026-07-15_360506e80638": {
+    "expires_at": 1784754093.0302331,
+    "sent_at": "2026-07-15T21:01:33.030220",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: вырос на 3.17%"
   },
   "price_GOOGL_2026-07-15_8f770a99ef0c": {
     "expires_at": 1784743265.1180325,
@@ -66,6 +82,14 @@
   "price_META_2026-07-15_2825b4e267ea": {
     "expires_at": 1784750430.7466798,
     "sent_at": "2026-07-15T20:00:30.746666",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "META",
+    "title": "META: вырос на 3.07%"
+  },
+  "price_META_2026-07-15_3991c8c75aa0": {
+    "expires_at": 1784754093.14853,
+    "sent_at": "2026-07-15T21:01:33.148517",
     "severity": "medium",
     "signal_type": "price",
     "ticker": "META",
@@ -198,6 +222,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Financials +3.1%, Healthcare -2.2%"
+  },
+  "volatility_SECTORS_2026-07-15_affc69e29cbf": {
+    "expires_at": 1784754093.2659423,
+    "sent_at": "2026-07-15T21:01:33.265930",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.1%, Healthcare -2.4%"
   },
   "volatility_SECTORS_2026-07-15_b1527a2f1834": {
     "expires_at": 1784743265.2682238,
