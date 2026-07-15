@@ -7,6 +7,22 @@
     "ticker": "MARKET",
     "title": "CPI Release сегодня"
   },
+  "price_AAPL_2026-07-15_2531b46b5b9a": {
+    "expires_at": 1784736744.309709,
+    "sent_at": "2026-07-15T16:12:24.309699",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "AAPL",
+    "title": "AAPL: вырос на 3.78%"
+  },
+  "price_GOOGL_2026-07-15_dfe5e458299e": {
+    "expires_at": 1784736744.5798032,
+    "sent_at": "2026-07-15T16:12:24.579791",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: вырос на 3.68%"
+  },
   "price_GOOGL_2026-07-15_e71c835a3048": {
     "expires_at": 1784730716.8368514,
     "sent_at": "2026-07-15T14:31:56.836845",
@@ -14,6 +30,22 @@
     "signal_type": "price",
     "ticker": "GOOGL",
     "title": "GOOGL: вырос на 4.15%"
+  },
+  "price_META_2026-07-15_725dfa0f1661": {
+    "expires_at": 1784736744.7183173,
+    "sent_at": "2026-07-15T16:12:24.718307",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "META",
+    "title": "META: вырос на 3.51%"
+  },
+  "price_MSFT_2026-07-15_948fe8d116b3": {
+    "expires_at": 1784736744.4449837,
+    "sent_at": "2026-07-15T16:12:24.444973",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "MSFT",
+    "title": "MSFT: вырос на 3.53%"
   },
   "price_NVDA_2026-07-14_436c41b554a4": {
     "expires_at": 1784660333.0409935,
@@ -118,5 +150,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Financials +3.1%, Healthcare -2.2%"
+  },
+  "volatility_SECTORS_2026-07-15_d58fcf958749": {
+    "expires_at": 1784736744.8505707,
+    "sent_at": "2026-07-15T16:12:24.850558",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Communications +2.9%, Technology -3.4%"
   }
 }
