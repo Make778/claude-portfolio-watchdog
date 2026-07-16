@@ -246,5 +246,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Communications +2.9%, Technology -3.4%"
+  },
+  "volatility_SECTORS_2026-07-16_559869224bf2": {
+    "expires_at": 1784818322.5991976,
+    "sent_at": "2026-07-16T14:52:02.599186",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.6%, Technology -4.2%"
   }
 }
