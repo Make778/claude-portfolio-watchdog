@@ -79,6 +79,14 @@
     "ticker": "GOOGL",
     "title": "GOOGL: вырос на 4.15%"
   },
+  "price_GOOGL_2026-07-16_7c26bc7f741a": {
+    "expires_at": 1784833458.9745598,
+    "sent_at": "2026-07-16T19:04:18.974549",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: упал на 3.96%"
+  },
   "price_META_2026-07-15_2825b4e267ea": {
     "expires_at": 1784750430.7466798,
     "sent_at": "2026-07-15T20:00:30.746666",
@@ -262,6 +270,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.6%, Technology -4.2%"
+  },
+  "volatility_SECTORS_2026-07-16_73460950974a": {
+    "expires_at": 1784833459.0904453,
+    "sent_at": "2026-07-16T19:04:19.090435",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.6%, Technology -4.4%"
   },
   "volatility_SECTORS_2026-07-16_a6f8c33cba1f": {
     "expires_at": 1784829535.6140654,
