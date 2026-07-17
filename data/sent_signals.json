@@ -366,5 +366,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Real Estate +1.4%, Technology -2.9%"
+  },
+  "volatility_SECTORS_2026-07-17_f6fa4cf6ea58": {
+    "expires_at": 1784925831.6244142,
+    "sent_at": "2026-07-17T20:43:51.624403",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +1.7%, Technology -3.1%"
   }
 }
