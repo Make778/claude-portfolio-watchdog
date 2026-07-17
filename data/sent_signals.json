@@ -127,6 +127,14 @@
     "ticker": "META",
     "title": "META: упал на 4.56%"
   },
+  "price_META_2026-07-17_ba50b962f06d": {
+    "expires_at": 1784909231.528756,
+    "sent_at": "2026-07-17T16:07:11.528745",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "META",
+    "title": "META: упал на 4.81%"
+  },
   "price_MSFT_2026-07-15_948fe8d116b3": {
     "expires_at": 1784736744.4449837,
     "sent_at": "2026-07-15T16:12:24.444973",
@@ -318,5 +326,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Real Estate +2.2%, Technology -3.1%"
+  },
+  "volatility_SECTORS_2026-07-17_619ee843916e": {
+    "expires_at": 1784909231.6680834,
+    "sent_at": "2026-07-17T16:07:11.668075",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Real Estate +1.9%, Technology -2.8%"
   }
 }
