@@ -398,5 +398,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Consumer Staples +2.0%, Technology -4.0%"
+  },
+  "volatility_SECTORS_2026-07-20_fb66d0329d9b": {
+    "expires_at": 1785172525.0000303,
+    "sent_at": "2026-07-20T17:15:25.000017",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +2.3%, Technology -3.8%"
   }
 }
