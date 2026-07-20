@@ -1,4 +1,20 @@
 {
+  "earnings_GOOGL_2026-07-20_cd4e66f2f527": {
+    "expires_at": 1785164473.41565,
+    "sent_at": "2026-07-20T15:01:13.415639",
+    "severity": "low",
+    "signal_type": "earnings",
+    "ticker": "GOOGL",
+    "title": "GOOGL: earnings через 2 дня"
+  },
+  "earnings_TSLA_2026-07-20_c0b2ecbcef4b": {
+    "expires_at": 1785164473.5903003,
+    "sent_at": "2026-07-20T15:01:13.590289",
+    "severity": "low",
+    "signal_type": "earnings",
+    "ticker": "TSLA",
+    "title": "TSLA: earnings через 2 дня"
+  },
   "macro_MARKET_2026-07-14_b9c04f65724a": {
     "expires_at": 1784595237.9885612,
     "sent_at": "2026-07-14T00:53:57.988556",
@@ -374,5 +390,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +1.7%, Technology -3.1%"
+  },
+  "volatility_SECTORS_2026-07-20_0e4eac149108": {
+    "expires_at": 1785164473.775807,
+    "sent_at": "2026-07-20T15:01:13.775797",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Consumer Staples +2.0%, Technology -4.0%"
   }
 }
