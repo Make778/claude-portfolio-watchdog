@@ -15,6 +15,14 @@
     "ticker": "GOOGL",
     "title": "GOOGL: earnings через 1 день"
   },
+  "earnings_GOOGL_2026-07-22_ec6c936cee67": {
+    "expires_at": 1785336790.159856,
+    "sent_at": "2026-07-22T14:53:10.159845",
+    "severity": "high",
+    "signal_type": "earnings",
+    "ticker": "GOOGL",
+    "title": "GOOGL: earnings сегодня"
+  },
   "earnings_TSLA_2026-07-20_c0b2ecbcef4b": {
     "expires_at": 1785164473.5903003,
     "sent_at": "2026-07-20T15:01:13.590289",
@@ -30,6 +38,22 @@
     "signal_type": "earnings",
     "ticker": "TSLA",
     "title": "TSLA: earnings через 1 день"
+  },
+  "earnings_TSLA_2026-07-22_8a3cebd542cb": {
+    "expires_at": 1785336790.2905853,
+    "sent_at": "2026-07-22T14:53:10.290576",
+    "severity": "high",
+    "signal_type": "earnings",
+    "ticker": "TSLA",
+    "title": "TSLA: earnings сегодня"
+  },
+  "macro_MARKET_2026-07-22_53bb2199afff": {
+    "expires_at": 1785336790.4162185,
+    "sent_at": "2026-07-22T14:53:10.416209",
+    "severity": "medium",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "FOMC Decision через 7 дн."
   },
   "price_AAPL_2026-07-15_0d29f41a17eb": {
     "expires_at": 1784743264.999353,
@@ -94,14 +118,6 @@
     "signal_type": "price",
     "ticker": "GOOGL",
     "title": "GOOGL: вырос на 3.68%"
-  },
-  "price_GOOGL_2026-07-15_e71c835a3048": {
-    "expires_at": 1784730716.8368514,
-    "sent_at": "2026-07-15T14:31:56.836845",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "GOOGL",
-    "title": "GOOGL: вырос на 4.15%"
   },
   "price_GOOGL_2026-07-16_7c26bc7f741a": {
     "expires_at": 1784833458.9745598,
@@ -175,14 +191,6 @@
     "ticker": "MSFT",
     "title": "MSFT: вырос на 3.53%"
   },
-  "price_NVDA_2026-07-15_20a00ad40ed5": {
-    "expires_at": 1784730716.6569803,
-    "sent_at": "2026-07-15T14:31:56.656971",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "NVDA",
-    "title": "NVDA: вырос на 3.15%"
-  },
   "price_TSLA_2026-07-21_2df930c78a9f": {
     "expires_at": 1785250430.6399508,
     "sent_at": "2026-07-21T14:53:50.639942",
@@ -206,14 +214,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.0%, Healthcare -2.4%"
-  },
-  "volatility_SECTORS_2026-07-15_4b486db79c75": {
-    "expires_at": 1784730717.0170794,
-    "sent_at": "2026-07-15T14:31:57.017073",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Financials +3.1%, Healthcare -2.2%"
   },
   "volatility_SECTORS_2026-07-15_affc69e29cbf": {
     "expires_at": 1784754093.2659423,
@@ -390,5 +390,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.6%, Communications -3.0%"
+  },
+  "volatility_SECTORS_2026-07-22_806fb617d54e": {
+    "expires_at": 1785336790.545958,
+    "sent_at": "2026-07-22T14:53:10.545949",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.2%, Consumer Discretionary -2.7%"
   }
 }
