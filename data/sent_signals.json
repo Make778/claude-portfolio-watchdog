@@ -167,6 +167,14 @@
     "ticker": "META",
     "title": "META: упал на 4.81%"
   },
+  "price_NVDA_2026-07-22_abb256a07adb": {
+    "expires_at": 1785348034.3886242,
+    "sent_at": "2026-07-22T18:00:34.388617",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: вырос на 3.12%"
+  },
   "price_TSLA_2026-07-21_2df930c78a9f": {
     "expires_at": 1785250430.6399508,
     "sent_at": "2026-07-21T14:53:50.639942",
@@ -358,6 +366,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.6%, Communications -3.0%"
+  },
+  "volatility_SECTORS_2026-07-22_4d90691d6943": {
+    "expires_at": 1785348034.5845191,
+    "sent_at": "2026-07-22T18:00:34.584512",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.9%, Consumer Discretionary -2.8%"
   },
   "volatility_SECTORS_2026-07-22_806fb617d54e": {
     "expires_at": 1785336790.545958,
