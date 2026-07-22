@@ -71,25 +71,9 @@
     "ticker": "AAPL",
     "title": "AAPL: вырос на 4.01%"
   },
-  "price_AAPL_2026-07-15_d17f21baf868": {
-    "expires_at": 1784750430.469974,
-    "sent_at": "2026-07-15T20:00:30.469960",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "AAPL",
-    "title": "AAPL: вырос на 4.01%"
-  },
   "price_GOOGL_2026-07-15_360506e80638": {
     "expires_at": 1784754093.0302331,
     "sent_at": "2026-07-15T21:01:33.030220",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "GOOGL",
-    "title": "GOOGL: вырос на 3.17%"
-  },
-  "price_GOOGL_2026-07-15_c64e35e7e8c9": {
-    "expires_at": 1784750430.5994766,
-    "sent_at": "2026-07-15T20:00:30.599464",
     "severity": "medium",
     "signal_type": "price",
     "ticker": "GOOGL",
@@ -118,14 +102,6 @@
     "signal_type": "price",
     "ticker": "GOOGL",
     "title": "GOOGL: упал на 3.06%"
-  },
-  "price_META_2026-07-15_2825b4e267ea": {
-    "expires_at": 1784750430.7466798,
-    "sent_at": "2026-07-15T20:00:30.746666",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "META",
-    "title": "META: вырос на 3.07%"
   },
   "price_META_2026-07-15_3991c8c75aa0": {
     "expires_at": 1784754093.14853,
@@ -174,14 +150,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.21%"
-  },
-  "volatility_SECTORS_2026-07-15_10ef068a2b60": {
-    "expires_at": 1784750430.8752658,
-    "sent_at": "2026-07-15T20:00:30.875251",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +3.0%, Healthcare -2.4%"
   },
   "volatility_SECTORS_2026-07-15_affc69e29cbf": {
     "expires_at": 1784754093.2659423,
@@ -358,6 +326,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.2%, Consumer Discretionary -2.7%"
+  },
+  "volatility_SECTORS_2026-07-22_90df944867e4": {
+    "expires_at": 1785358393.9983718,
+    "sent_at": "2026-07-22T20:53:13.998359",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.8%, Communications -3.1%"
   },
   "volatility_SECTORS_2026-07-22_da4e5dc42fb7": {
     "expires_at": 1785341574.3426678,
