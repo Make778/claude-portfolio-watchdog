@@ -63,14 +63,6 @@
     "ticker": "MARKET",
     "title": "FOMC Decision через 7 дн."
   },
-  "price_AAPL_2026-07-15_0d29f41a17eb": {
-    "expires_at": 1784743264.999353,
-    "sent_at": "2026-07-15T18:01:04.999339",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "AAPL",
-    "title": "AAPL: вырос на 4.05%"
-  },
   "price_AAPL_2026-07-15_667ac2ec19ba": {
     "expires_at": 1784754092.909492,
     "sent_at": "2026-07-15T21:01:32.909480",
@@ -94,14 +86,6 @@
     "signal_type": "price",
     "ticker": "GOOGL",
     "title": "GOOGL: вырос на 3.17%"
-  },
-  "price_GOOGL_2026-07-15_8f770a99ef0c": {
-    "expires_at": 1784743265.1180325,
-    "sent_at": "2026-07-15T18:01:05.118019",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "GOOGL",
-    "title": "GOOGL: вырос на 3.46%"
   },
   "price_GOOGL_2026-07-15_c64e35e7e8c9": {
     "expires_at": 1784750430.5994766,
@@ -206,14 +190,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.1%, Healthcare -2.4%"
-  },
-  "volatility_SECTORS_2026-07-15_b1527a2f1834": {
-    "expires_at": 1784743265.2682238,
-    "sent_at": "2026-07-15T18:01:05.268210",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Communications +2.4%, Technology -2.3%"
   },
   "volatility_SECTORS_2026-07-16_0b20e633c50f": {
     "expires_at": 1784822967.27409,
@@ -390,5 +366,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.7%, Consumer Discretionary -2.5%"
+  },
+  "volatility_SECTORS_2026-07-22_e2ef140d7db5": {
+    "expires_at": 1785352805.102732,
+    "sent_at": "2026-07-22T19:20:05.102719",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.0%, Communications -3.0%"
   }
 }
