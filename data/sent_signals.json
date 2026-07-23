@@ -95,6 +95,14 @@
     "ticker": "GOOGL",
     "title": "GOOGL: упал на 3.06%"
   },
+  "price_GOOGL_2026-07-23_7ace23d0d12f": {
+    "expires_at": 1785428719.444985,
+    "sent_at": "2026-07-23T16:25:19.444974",
+    "severity": "high",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: упал на 6.21%"
+  },
   "price_GOOGL_2026-07-23_df7c83637c9a": {
     "expires_at": 1785423577.8508606,
     "sent_at": "2026-07-23T14:59:37.850855",
@@ -126,6 +134,14 @@
     "signal_type": "price",
     "ticker": "META",
     "title": "META: упал на 3.96%"
+  },
+  "price_META_2026-07-23_4b30cad24aa8": {
+    "expires_at": 1785428719.5699966,
+    "sent_at": "2026-07-23T16:25:19.569989",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "META",
+    "title": "META: упал на 3.69%"
   },
   "price_NVDA_2026-07-22_abb256a07adb": {
     "expires_at": 1785348034.3886242,
@@ -159,13 +175,13 @@
     "ticker": "TSLA",
     "title": "TSLA: упал на 13.46%"
   },
-  "volatility_SECTORS_2026-07-16_0b20e633c50f": {
-    "expires_at": 1784822967.27409,
-    "sent_at": "2026-07-16T16:09:27.274083",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +3.8%, Technology -4.4%"
+  "price_TSLA_2026-07-23_e1fb2bc2735c": {
+    "expires_at": 1785428719.7059836,
+    "sent_at": "2026-07-23T16:25:19.705975",
+    "severity": "critical",
+    "signal_type": "price",
+    "ticker": "TSLA",
+    "title": "TSLA: упал на 13.16%"
   },
   "volatility_SECTORS_2026-07-16_2064cdf4dac0": {
     "expires_at": 1784839403.8488367,
@@ -343,6 +359,14 @@
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.0%, Communications -3.0%"
   },
+  "volatility_SECTORS_2026-07-23_3562de4b8958": {
+    "expires_at": 1785428719.9535248,
+    "sent_at": "2026-07-23T16:25:19.953519",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.7%, Consumer Discretionary -5.4%"
+  },
   "volatility_SECTORS_2026-07-23_df7f932e7188": {
     "expires_at": 1785423578.5139642,
     "sent_at": "2026-07-23T14:59:38.513957",
@@ -358,5 +382,13 @@
     "signal_type": "volatility",
     "ticker": "^VIX",
     "title": "VIX = 19.2 (порог 25)"
+  },
+  "volatility_^VIX_2026-07-23_b6f0ec73b468": {
+    "expires_at": 1785428719.8363295,
+    "sent_at": "2026-07-23T16:25:19.836321",
+    "severity": "medium",
+    "signal_type": "volatility",
+    "ticker": "^VIX",
+    "title": "VIX = 19.4 (порог 25)"
   }
 }
