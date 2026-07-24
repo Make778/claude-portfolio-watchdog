@@ -79,13 +79,13 @@
     "ticker": "MARKET",
     "title": "FOMC Decision через 5 дн."
   },
-  "price_GOOGL_2026-07-17_b09b37f463a5": {
-    "expires_at": 1784915758.9530215,
-    "sent_at": "2026-07-17T17:55:58.953010",
+  "price_AAPL_2026-07-24_07895302f59c": {
+    "expires_at": 1785521370.7863321,
+    "sent_at": "2026-07-24T18:09:30.786322",
     "severity": "medium",
     "signal_type": "price",
-    "ticker": "GOOGL",
-    "title": "GOOGL: упал на 3.06%"
+    "ticker": "AAPL",
+    "title": "AAPL: вырос на 3.49%"
   },
   "price_GOOGL_2026-07-23_3350904cd23d": {
     "expires_at": 1785441974.9241107,
@@ -118,14 +118,6 @@
     "signal_type": "price",
     "ticker": "GOOGL",
     "title": "GOOGL: упал на 7.25%"
-  },
-  "price_META_2026-07-17_ba50b962f06d": {
-    "expires_at": 1784909231.528756,
-    "sent_at": "2026-07-17T16:07:11.528745",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "META",
-    "title": "META: упал на 4.81%"
   },
   "price_META_2026-07-23_15987d0334f0": {
     "expires_at": 1785434757.7696466,
@@ -215,13 +207,13 @@
     "ticker": "TSLA",
     "title": "TSLA: упал на 13.16%"
   },
-  "volatility_SECTORS_2026-07-17_619ee843916e": {
-    "expires_at": 1784909231.6680834,
-    "sent_at": "2026-07-17T16:07:11.668075",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Real Estate +1.9%, Technology -2.8%"
+  "price_TSLA_2026-07-24_446ef9fc2a7a": {
+    "expires_at": 1785521370.9196508,
+    "sent_at": "2026-07-24T18:09:30.919641",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "TSLA",
+    "title": "TSLA: упал на 3.62%"
   },
   "volatility_SECTORS_2026-07-17_84514a83285e": {
     "expires_at": 1784923017.0384247,
@@ -230,14 +222,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +1.7%, Technology -2.9%"
-  },
-  "volatility_SECTORS_2026-07-17_db7ae97a551d": {
-    "expires_at": 1784915759.091837,
-    "sent_at": "2026-07-17T17:55:59.091827",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +1.3%, Technology -2.4%"
   },
   "volatility_SECTORS_2026-07-17_ee07ffa175e1": {
     "expires_at": 1784919034.0363925,
@@ -398,6 +382,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.0%, Consumer Discretionary -5.1%"
+  },
+  "volatility_SECTORS_2026-07-24_b58ada2bb7d5": {
+    "expires_at": 1785521371.1215196,
+    "sent_at": "2026-07-24T18:09:31.121509",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.0%, Consumer Discretionary -4.7%"
   },
   "volatility_^VIX_2026-07-23_002e2e7e9e87": {
     "expires_at": 1785423578.3839796,
