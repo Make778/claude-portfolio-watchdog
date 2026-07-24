@@ -87,6 +87,14 @@
     "ticker": "AAPL",
     "title": "AAPL: вырос на 3.49%"
   },
+  "price_AAPL_2026-07-24_334e68d9bb26": {
+    "expires_at": 1785528533.8599184,
+    "sent_at": "2026-07-24T20:08:53.859904",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "AAPL",
+    "title": "AAPL: вырос на 3.53%"
+  },
   "price_GOOGL_2026-07-23_3350904cd23d": {
     "expires_at": 1785441974.9241107,
     "sent_at": "2026-07-23T20:06:14.924098",
@@ -214,22 +222,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: упал на 3.62%"
-  },
-  "volatility_SECTORS_2026-07-17_84514a83285e": {
-    "expires_at": 1784923017.0384247,
-    "sent_at": "2026-07-17T19:56:57.038414",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +1.7%, Technology -2.9%"
-  },
-  "volatility_SECTORS_2026-07-17_ee07ffa175e1": {
-    "expires_at": 1784919034.0363925,
-    "sent_at": "2026-07-17T18:50:34.036379",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Real Estate +1.4%, Technology -2.9%"
   },
   "volatility_SECTORS_2026-07-17_f6fa4cf6ea58": {
     "expires_at": 1784925831.6244142,
@@ -382,6 +374,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.0%, Consumer Discretionary -5.1%"
+  },
+  "volatility_SECTORS_2026-07-24_9e62db9bea6c": {
+    "expires_at": 1785528534.0386357,
+    "sent_at": "2026-07-24T20:08:54.038625",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Utilities +3.0%, Consumer Discretionary -4.5%"
   },
   "volatility_SECTORS_2026-07-24_b58ada2bb7d5": {
     "expires_at": 1785521371.1215196,
