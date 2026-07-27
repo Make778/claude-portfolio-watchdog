@@ -111,6 +111,14 @@
     "ticker": "AAPL",
     "title": "AAPL: вырос на 3.53%"
   },
+  "price_AAPL_2026-07-27_f93a1fa0ff9b": {
+    "expires_at": 1785778056.1316063,
+    "sent_at": "2026-07-27T17:27:36.131596",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "AAPL",
+    "title": "AAPL: вырос на 4.64%"
+  },
   "price_GOOGL_2026-07-23_3350904cd23d": {
     "expires_at": 1785441974.9241107,
     "sent_at": "2026-07-23T20:06:14.924098",
@@ -183,6 +191,14 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.12%"
   },
+  "price_NVDA_2026-07-27_7208f7e56393": {
+    "expires_at": 1785778056.2912252,
+    "sent_at": "2026-07-27T17:27:36.291216",
+    "severity": "high",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: упал на 6.26%"
+  },
   "price_NVDA_2026-07-27_f9b3fc34b325": {
     "expires_at": 1785771301.3868191,
     "sent_at": "2026-07-27T15:35:01.386807",
@@ -247,6 +263,14 @@
     "ticker": "TSLA",
     "title": "TSLA: упал на 3.62%"
   },
+  "price_TSLA_2026-07-27_a871f31bf47c": {
+    "expires_at": 1785778056.54006,
+    "sent_at": "2026-07-27T17:27:36.540050",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "TSLA",
+    "title": "TSLA: упал на 3.79%"
+  },
   "volatility_SECTORS_2026-07-20_aa5ab874f68b": {
     "expires_at": 1785185914.2266319,
     "sent_at": "2026-07-20T20:58:34.226627",
@@ -262,14 +286,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +2.2%, Technology -4.2%"
-  },
-  "volatility_SECTORS_2026-07-20_fb66d0329d9b": {
-    "expires_at": 1785172525.0000303,
-    "sent_at": "2026-07-20T17:15:25.000017",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +2.3%, Technology -3.8%"
   },
   "volatility_SECTORS_2026-07-21_23cab36b849e": {
     "expires_at": 1785250431.2168515,
@@ -398,6 +414,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.0%, Consumer Discretionary -4.7%"
+  },
+  "volatility_SECTORS_2026-07-27_57f190a2ee40": {
+    "expires_at": 1785778056.7099426,
+    "sent_at": "2026-07-27T17:27:36.709932",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Healthcare +3.0%, Consumer Discretionary -3.5%"
   },
   "volatility_SECTORS_2026-07-27_72da4b08647b": {
     "expires_at": 1785771302.0377233,
