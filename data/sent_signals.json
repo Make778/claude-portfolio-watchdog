@@ -1,11 +1,11 @@
 {
-  "earnings_GOOGL_2026-07-20_cd4e66f2f527": {
-    "expires_at": 1785164473.41565,
-    "sent_at": "2026-07-20T15:01:13.415639",
+  "earnings_AAPL_2026-07-27_374e4624eb5f": {
+    "expires_at": 1785771301.5126824,
+    "sent_at": "2026-07-27T15:35:01.512672",
     "severity": "low",
     "signal_type": "earnings",
-    "ticker": "GOOGL",
-    "title": "GOOGL: earnings через 2 дня"
+    "ticker": "AAPL",
+    "title": "AAPL: earnings через 3 дня"
   },
   "earnings_GOOGL_2026-07-21_6fe27d214bc5": {
     "expires_at": 1785250430.8317122,
@@ -23,13 +23,21 @@
     "ticker": "GOOGL",
     "title": "GOOGL: earnings сегодня"
   },
-  "earnings_TSLA_2026-07-20_c0b2ecbcef4b": {
-    "expires_at": 1785164473.5903003,
-    "sent_at": "2026-07-20T15:01:13.590289",
+  "earnings_META_2026-07-27_4838dc7e7355": {
+    "expires_at": 1785771301.7785435,
+    "sent_at": "2026-07-27T15:35:01.778534",
     "severity": "low",
     "signal_type": "earnings",
-    "ticker": "TSLA",
-    "title": "TSLA: earnings через 2 дня"
+    "ticker": "META",
+    "title": "META: earnings через 2 дня"
+  },
+  "earnings_MSFT_2026-07-27_ba121df17c7d": {
+    "expires_at": 1785771301.636193,
+    "sent_at": "2026-07-27T15:35:01.636182",
+    "severity": "low",
+    "signal_type": "earnings",
+    "ticker": "MSFT",
+    "title": "MSFT: earnings через 2 дня"
   },
   "earnings_TSLA_2026-07-21_f246135c93c3": {
     "expires_at": 1785250431.0146105,
@@ -78,6 +86,14 @@
     "signal_type": "macro",
     "ticker": "MARKET",
     "title": "FOMC Decision через 5 дн."
+  },
+  "macro_MARKET_2026-07-27_56cf941bbde3": {
+    "expires_at": 1785771301.9127922,
+    "sent_at": "2026-07-27T15:35:01.912782",
+    "severity": "medium",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "FOMC Decision через 2 дн."
   },
   "price_AAPL_2026-07-24_07895302f59c": {
     "expires_at": 1785521370.7863321,
@@ -167,6 +183,14 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.12%"
   },
+  "price_NVDA_2026-07-27_f9b3fc34b325": {
+    "expires_at": 1785771301.3868191,
+    "sent_at": "2026-07-27T15:35:01.386807",
+    "severity": "high",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: упал на 5.08%"
+  },
   "price_TSLA_2026-07-21_2df930c78a9f": {
     "expires_at": 1785250430.6399508,
     "sent_at": "2026-07-21T14:53:50.639942",
@@ -222,22 +246,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: упал на 3.62%"
-  },
-  "volatility_SECTORS_2026-07-17_f6fa4cf6ea58": {
-    "expires_at": 1784925831.6244142,
-    "sent_at": "2026-07-17T20:43:51.624403",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +1.7%, Technology -3.1%"
-  },
-  "volatility_SECTORS_2026-07-20_0e4eac149108": {
-    "expires_at": 1785164473.775807,
-    "sent_at": "2026-07-20T15:01:13.775797",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Staples +2.0%, Technology -4.0%"
   },
   "volatility_SECTORS_2026-07-20_aa5ab874f68b": {
     "expires_at": 1785185914.2266319,
@@ -390,6 +398,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.0%, Consumer Discretionary -4.7%"
+  },
+  "volatility_SECTORS_2026-07-27_72da4b08647b": {
+    "expires_at": 1785771302.0377233,
+    "sent_at": "2026-07-27T15:35:02.037714",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Healthcare +2.4%, Technology -4.5%"
   },
   "volatility_^VIX_2026-07-23_002e2e7e9e87": {
     "expires_at": 1785423578.3839796,
