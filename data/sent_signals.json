@@ -7,6 +7,14 @@
     "ticker": "AAPL",
     "title": "AAPL: earnings через 3 дня"
   },
+  "earnings_AAPL_2026-07-28_33ef0b0ebb7d": {
+    "expires_at": 1785870177.683343,
+    "sent_at": "2026-07-28T19:02:57.683331",
+    "severity": "low",
+    "signal_type": "earnings",
+    "ticker": "AAPL",
+    "title": "AAPL: earnings через 2 дня"
+  },
   "earnings_AAPL_2026-07-28_54c42c2d72fc": {
     "expires_at": 1785856207.8600218,
     "sent_at": "2026-07-28T15:10:07.860011",
@@ -30,6 +38,14 @@
     "signal_type": "earnings",
     "ticker": "META",
     "title": "META: earnings через 2 дня"
+  },
+  "earnings_META_2026-07-28_2110a995b651": {
+    "expires_at": 1785870177.8352897,
+    "sent_at": "2026-07-28T19:02:57.835279",
+    "severity": "medium",
+    "signal_type": "earnings",
+    "ticker": "META",
+    "title": "META: earnings через 1 день"
   },
   "earnings_META_2026-07-28_f70e52495b06": {
     "expires_at": 1785856208.163791,
@@ -319,14 +335,6 @@
     "ticker": "TSLA",
     "title": "TSLA: упал на 3.28%"
   },
-  "volatility_SECTORS_2026-07-21_a4bbdfb9c0cf": {
-    "expires_at": 1785262030.7493405,
-    "sent_at": "2026-07-21T18:07:10.749335",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +3.1%, Communications -2.9%"
-  },
   "volatility_SECTORS_2026-07-21_b36678ae48a3": {
     "expires_at": 1785269488.1535714,
     "sent_at": "2026-07-21T20:11:28.153556",
@@ -470,6 +478,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Healthcare +4.8%, Technology -4.9%"
+  },
+  "volatility_SECTORS_2026-07-28_87e73672c9a7": {
+    "expires_at": 1785870177.9737954,
+    "sent_at": "2026-07-28T19:02:57.973784",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Healthcare +5.0%, Technology -4.8%"
   },
   "volatility_SECTORS_2026-07-28_fb054593b8af": {
     "expires_at": 1785856208.440974,
