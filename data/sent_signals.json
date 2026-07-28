@@ -255,14 +255,6 @@
     "ticker": "NVDA",
     "title": "NVDA: упал на 5.08%"
   },
-  "price_TSLA_2026-07-21_c9d654b07364": {
-    "expires_at": 1785255213.893457,
-    "sent_at": "2026-07-21T16:13:33.893444",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "TSLA",
-    "title": "TSLA: вырос на 3.21%"
-  },
   "price_TSLA_2026-07-23_39cb6a9255d9": {
     "expires_at": 1785441975.1827135,
     "sent_at": "2026-07-23T20:06:15.182699",
@@ -334,14 +326,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.1%, Communications -2.9%"
-  },
-  "volatility_SECTORS_2026-07-21_a70cca3e717b": {
-    "expires_at": 1785255214.056829,
-    "sent_at": "2026-07-21T16:13:34.056818",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +3.1%, Communications -2.8%"
   },
   "volatility_SECTORS_2026-07-21_b36678ae48a3": {
     "expires_at": 1785269488.1535714,
@@ -478,6 +462,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Healthcare +2.8%, Consumer Discretionary -3.3%"
+  },
+  "volatility_SECTORS_2026-07-28_1d9eefda8af7": {
+    "expires_at": 1785863786.5344334,
+    "sent_at": "2026-07-28T17:16:26.534423",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Healthcare +4.8%, Technology -4.9%"
   },
   "volatility_SECTORS_2026-07-28_fb054593b8af": {
     "expires_at": 1785856208.440974,
