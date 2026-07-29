@@ -95,14 +95,6 @@
     "ticker": "MSFT",
     "title": "MSFT: earnings сегодня"
   },
-  "earnings_TSLA_2026-07-22_286a3aedfd42": {
-    "expires_at": 1785341574.197593,
-    "sent_at": "2026-07-22T16:12:54.197581",
-    "severity": "high",
-    "signal_type": "earnings",
-    "ticker": "TSLA",
-    "title": "TSLA: earnings сегодня"
-  },
   "macro_MARKET_2026-07-23_108a23f0e6ef": {
     "expires_at": 1785423578.2550745,
     "sent_at": "2026-07-23T14:59:38.255068",
@@ -367,14 +359,6 @@
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.8%, Communications -3.1%"
   },
-  "volatility_SECTORS_2026-07-22_da4e5dc42fb7": {
-    "expires_at": 1785341574.3426678,
-    "sent_at": "2026-07-22T16:12:54.342657",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +3.7%, Consumer Discretionary -2.5%"
-  },
   "volatility_SECTORS_2026-07-22_e2ef140d7db5": {
     "expires_at": 1785352805.102732,
     "sent_at": "2026-07-22T19:20:05.102719",
@@ -510,6 +494,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Consumer Staples +5.0%, Technology -5.3%"
+  },
+  "volatility_SECTORS_2026-07-29_c21cf85d9d1f": {
+    "expires_at": 1785949317.7253575,
+    "sent_at": "2026-07-29T17:01:57.725347",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Consumer Staples +5.3%, Technology -5.6%"
   },
   "volatility_^VIX_2026-07-23_002e2e7e9e87": {
     "expires_at": 1785423578.3839796,
