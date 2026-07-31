@@ -135,14 +135,6 @@
     "ticker": "MARKET",
     "title": "Non-Farm Payrolls (NFP) через 7 дн."
   },
-  "price_AAPL_2026-07-24_07895302f59c": {
-    "expires_at": 1785521370.7863321,
-    "sent_at": "2026-07-24T18:09:30.786322",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "AAPL",
-    "title": "AAPL: вырос на 3.49%"
-  },
   "price_AAPL_2026-07-24_334e68d9bb26": {
     "expires_at": 1785528533.8599184,
     "sent_at": "2026-07-24T20:08:53.859904",
@@ -183,6 +175,14 @@
     "ticker": "AAPL",
     "title": "AAPL: упал на 9.14%"
   },
+  "price_AAPL_2026-07-31_9c39c5827699": {
+    "expires_at": 1786129442.517592,
+    "sent_at": "2026-07-31T19:04:02.517581",
+    "severity": "high",
+    "signal_type": "price",
+    "ticker": "AAPL",
+    "title": "AAPL: упал на 8.96%"
+  },
   "price_AAPL_2026-07-31_df175104091f": {
     "expires_at": 1786122982.660171,
     "sent_at": "2026-07-31T17:16:22.660157",
@@ -190,6 +190,14 @@
     "signal_type": "price",
     "ticker": "AAPL",
     "title": "AAPL: упал на 9.54%"
+  },
+  "price_GOOGL_2026-07-31_0665659d26b2": {
+    "expires_at": 1786129442.6935792,
+    "sent_at": "2026-07-31T19:04:02.693568",
+    "severity": "high",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: вырос на 6.53%"
   },
   "price_GOOGL_2026-07-31_4a74a8f0f73e": {
     "expires_at": 1786122982.8507094,
@@ -311,14 +319,6 @@
     "ticker": "NVDA",
     "title": "NVDA: упал на 3.55%"
   },
-  "price_TSLA_2026-07-24_446ef9fc2a7a": {
-    "expires_at": 1785521370.9196508,
-    "sent_at": "2026-07-24T18:09:30.919641",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "TSLA",
-    "title": "TSLA: упал на 3.62%"
-  },
   "price_TSLA_2026-07-27_8db0faa6515a": {
     "expires_at": 1785784066.785942,
     "sent_at": "2026-07-27T19:07:46.785931",
@@ -366,14 +366,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Utilities +3.0%, Consumer Discretionary -4.5%"
-  },
-  "volatility_SECTORS_2026-07-24_b58ada2bb7d5": {
-    "expires_at": 1785521371.1215196,
-    "sent_at": "2026-07-24T18:09:31.121509",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +3.0%, Consumer Discretionary -4.7%"
   },
   "volatility_SECTORS_2026-07-27_57f190a2ee40": {
     "expires_at": 1785778056.7099426,
@@ -502,6 +494,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Consumer Discretionary +2.0%, Utilities -3.6%"
+  },
+  "volatility_SECTORS_2026-07-31_03755b9552fb": {
+    "expires_at": 1786129442.873483,
+    "sent_at": "2026-07-31T19:04:02.873473",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Consumer Discretionary +4.8%, Utilities -2.6%"
   },
   "volatility_SECTORS_2026-07-31_156b422cb53a": {
     "expires_at": 1786115534.4622526,
