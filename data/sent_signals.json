@@ -415,14 +415,6 @@
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.64%"
   },
-  "volatility_SECTORS_2026-07-28_1d9eefda8af7": {
-    "expires_at": 1785863786.5344334,
-    "sent_at": "2026-07-28T17:16:26.534423",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Healthcare +4.8%, Technology -4.9%"
-  },
   "volatility_SECTORS_2026-07-28_52b0ec67608c": {
     "expires_at": 1785876996.4068959,
     "sent_at": "2026-07-28T20:56:36.406886",
@@ -574,6 +566,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +11.3%, Consumer Staples -3.3%"
+  },
+  "volatility_SECTORS_2026-08-04_6d5a29c5850a": {
+    "expires_at": 1786469268.477567,
+    "sent_at": "2026-08-04T17:27:48.477557",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Technology +12.3%, Consumer Staples -2.7%"
   },
   "volatility_^VIX_2026-07-30_2f38781daa2f": {
     "expires_at": 1786047034.6882374,
