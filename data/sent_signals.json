@@ -1,12 +1,4 @@
 {
-  "earnings_AAPL_2026-07-28_33ef0b0ebb7d": {
-    "expires_at": 1785870177.683343,
-    "sent_at": "2026-07-28T19:02:57.683331",
-    "severity": "low",
-    "signal_type": "earnings",
-    "ticker": "AAPL",
-    "title": "AAPL: earnings через 2 дня"
-  },
   "earnings_AAPL_2026-07-29_9165af86a124": {
     "expires_at": 1785942194.5599701,
     "sent_at": "2026-07-29T15:03:14.559957",
@@ -22,14 +14,6 @@
     "signal_type": "earnings",
     "ticker": "AAPL",
     "title": "AAPL: earnings сегодня"
-  },
-  "earnings_META_2026-07-28_2110a995b651": {
-    "expires_at": 1785870177.8352897,
-    "sent_at": "2026-07-28T19:02:57.835279",
-    "severity": "medium",
-    "signal_type": "earnings",
-    "ticker": "META",
-    "title": "META: earnings через 1 день"
   },
   "earnings_META_2026-07-29_ad7987d76be9": {
     "expires_at": 1785942194.7943604,
@@ -423,14 +407,6 @@
     "ticker": "SECTORS",
     "title": "Sector rotation: Healthcare +4.9%, Technology -5.1%"
   },
-  "volatility_SECTORS_2026-07-28_87e73672c9a7": {
-    "expires_at": 1785870177.9737954,
-    "sent_at": "2026-07-28T19:02:57.973784",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Healthcare +5.0%, Technology -4.8%"
-  },
   "volatility_SECTORS_2026-07-29_b0d9012a7733": {
     "expires_at": 1785942195.0233455,
     "sent_at": "2026-07-29T15:03:15.023339",
@@ -566,6 +542,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +11.3%, Consumer Staples -3.3%"
+  },
+  "volatility_SECTORS_2026-08-04_5904506890ef": {
+    "expires_at": 1786475797.9216118,
+    "sent_at": "2026-08-04T19:16:37.921604",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Technology +12.6%, Healthcare -2.7%"
   },
   "volatility_SECTORS_2026-08-04_6d5a29c5850a": {
     "expires_at": 1786469268.477567,
