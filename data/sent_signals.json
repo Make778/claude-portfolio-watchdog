@@ -1,12 +1,4 @@
 {
-  "earnings_AAPL_2026-07-29_9165af86a124": {
-    "expires_at": 1785942194.5599701,
-    "sent_at": "2026-07-29T15:03:14.559957",
-    "severity": "medium",
-    "signal_type": "earnings",
-    "ticker": "AAPL",
-    "title": "AAPL: earnings через 1 день"
-  },
   "earnings_AAPL_2026-07-30_a3237f51297d": {
     "expires_at": 1786028383.276034,
     "sent_at": "2026-07-30T14:59:43.276023",
@@ -14,30 +6,6 @@
     "signal_type": "earnings",
     "ticker": "AAPL",
     "title": "AAPL: earnings сегодня"
-  },
-  "earnings_META_2026-07-29_ad7987d76be9": {
-    "expires_at": 1785942194.7943604,
-    "sent_at": "2026-07-29T15:03:14.794354",
-    "severity": "high",
-    "signal_type": "earnings",
-    "ticker": "META",
-    "title": "META: earnings сегодня"
-  },
-  "earnings_MSFT_2026-07-29_8e907e2e8a7e": {
-    "expires_at": 1785942194.678484,
-    "sent_at": "2026-07-29T15:03:14.678477",
-    "severity": "high",
-    "signal_type": "earnings",
-    "ticker": "MSFT",
-    "title": "MSFT: earnings сегодня"
-  },
-  "macro_MARKET_2026-07-29_86a6d508af08": {
-    "expires_at": 1785942194.9078507,
-    "sent_at": "2026-07-29T15:03:14.907844",
-    "severity": "high",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "FOMC Decision сегодня"
   },
   "macro_MARKET_2026-07-31_f2e3c4350e0c": {
     "expires_at": 1786115534.2932818,
@@ -70,6 +38,30 @@
     "signal_type": "macro",
     "ticker": "MARKET",
     "title": "CPI Release через 7 дн."
+  },
+  "macro_MARKET_2026-08-05_472d796c1f3d": {
+    "expires_at": 1786547164.6260314,
+    "sent_at": "2026-08-05T15:06:04.626021",
+    "severity": "low",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "Non-Farm Payrolls (NFP) через 2 дн."
+  },
+  "macro_MARKET_2026-08-05_71f734315dbb": {
+    "expires_at": 1786547164.9970248,
+    "sent_at": "2026-08-05T15:06:04.997015",
+    "severity": "low",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "PPI Release через 7 дн."
+  },
+  "macro_MARKET_2026-08-05_bb971d3bb414": {
+    "expires_at": 1786547164.8235095,
+    "sent_at": "2026-08-05T15:06:04.823500",
+    "severity": "low",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "CPI Release через 6 дн."
   },
   "price_AAPL_2026-07-31_2ad6b559f581": {
     "expires_at": 1786115533.9855452,
@@ -343,6 +335,14 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.64%"
   },
+  "price_NVDA_2026-08-05_de1736129c46": {
+    "expires_at": 1786547164.4523363,
+    "sent_at": "2026-08-05T15:06:04.452325",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: вырос на 3.34%"
+  },
   "price_TSLA_2026-07-30_696c292225ed": {
     "expires_at": 1786039692.8272893,
     "sent_at": "2026-07-30T18:08:12.827277",
@@ -390,14 +390,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.64%"
-  },
-  "volatility_SECTORS_2026-07-29_b0d9012a7733": {
-    "expires_at": 1785942195.0233455,
-    "sent_at": "2026-07-29T15:03:15.023339",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Staples +5.0%, Technology -5.3%"
   },
   "volatility_SECTORS_2026-07-29_c21cf85d9d1f": {
     "expires_at": 1785949317.7253575,
@@ -550,6 +542,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +12.2%, Healthcare -2.5%"
+  },
+  "volatility_SECTORS_2026-08-05_28a493fbd96c": {
+    "expires_at": 1786547165.2162583,
+    "sent_at": "2026-08-05T15:06:05.216247",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Technology +6.1%, Utilities -2.7%"
   },
   "volatility_^VIX_2026-07-30_2f38781daa2f": {
     "expires_at": 1786047034.6882374,
