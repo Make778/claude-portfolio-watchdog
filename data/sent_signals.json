@@ -159,6 +159,14 @@
     "ticker": "GOOGL",
     "title": "GOOGL: вырос на 4.88%"
   },
+  "price_GOOGL_2026-08-05_ed8389d98824": {
+    "expires_at": 1786561820.2065141,
+    "sent_at": "2026-08-05T19:10:20.206504",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: упал на 4.32%"
+  },
   "price_GOOGL_2026-08-05_ef4745761c78": {
     "expires_at": 1786555000.907238,
     "sent_at": "2026-08-05T17:16:40.907226",
@@ -343,6 +351,14 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.64%"
   },
+  "price_NVDA_2026-08-05_559f2d14573f": {
+    "expires_at": 1786561820.0420344,
+    "sent_at": "2026-08-05T19:10:20.042027",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: вырос на 4.69%"
+  },
   "price_NVDA_2026-08-05_a039a66871df": {
     "expires_at": 1786555000.7669084,
     "sent_at": "2026-08-05T17:16:40.766897",
@@ -414,14 +430,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Consumer Staples +4.9%, Technology -6.7%"
-  },
-  "volatility_SECTORS_2026-07-29_e61ad547aade": {
-    "expires_at": 1785955837.280643,
-    "sent_at": "2026-07-29T18:50:37.280632",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Staples +5.1%, Technology -3.7%"
   },
   "volatility_SECTORS_2026-07-30_236419d61350": {
     "expires_at": 1786047034.8649883,
@@ -558,6 +566,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +6.1%, Utilities -2.7%"
+  },
+  "volatility_SECTORS_2026-08-05_83aff603f812": {
+    "expires_at": 1786561820.3799987,
+    "sent_at": "2026-08-05T19:10:20.379991",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Technology +6.8%, Energy -2.5%"
   },
   "volatility_SECTORS_2026-08-05_b5eb5ac0affa": {
     "expires_at": 1786555001.0490882,
