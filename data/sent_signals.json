@@ -159,6 +159,14 @@
     "ticker": "GOOGL",
     "title": "GOOGL: вырос на 4.88%"
   },
+  "price_GOOGL_2026-08-05_1c6adfdae05f": {
+    "expires_at": 1786568086.5261717,
+    "sent_at": "2026-08-05T20:54:46.526156",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: упал на 4.03%"
+  },
   "price_GOOGL_2026-08-05_ed8389d98824": {
     "expires_at": 1786561820.2065141,
     "sent_at": "2026-08-05T19:10:20.206504",
@@ -319,14 +327,6 @@
     "ticker": "MSFT",
     "title": "MSFT: вырос на 4.93%"
   },
-  "price_NVDA_2026-07-29_05b38657aa39": {
-    "expires_at": 1785960404.4090283,
-    "sent_at": "2026-07-29T20:06:44.409018",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "NVDA",
-    "title": "NVDA: упал на 3.55%"
-  },
   "price_NVDA_2026-08-03_15a5488ec9eb": {
     "expires_at": 1786376128.0942118,
     "sent_at": "2026-08-03T15:35:28.094201",
@@ -366,6 +366,14 @@
     "signal_type": "price",
     "ticker": "NVDA",
     "title": "NVDA: вырос на 4.54%"
+  },
+  "price_NVDA_2026-08-05_ab3439e5dbfa": {
+    "expires_at": 1786568086.3728886,
+    "sent_at": "2026-08-05T20:54:46.372873",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: вырос на 3.43%"
   },
   "price_NVDA_2026-08-05_de1736129c46": {
     "expires_at": 1786547164.4523363,
@@ -422,14 +430,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.64%"
-  },
-  "volatility_SECTORS_2026-07-29_e0928fe9f0eb": {
-    "expires_at": 1785960404.580524,
-    "sent_at": "2026-07-29T20:06:44.580513",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Staples +4.9%, Technology -6.7%"
   },
   "volatility_SECTORS_2026-07-30_236419d61350": {
     "expires_at": 1786047034.8649883,
@@ -566,6 +566,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +6.1%, Utilities -2.7%"
+  },
+  "volatility_SECTORS_2026-08-05_6f8653c98fdf": {
+    "expires_at": 1786568086.7220206,
+    "sent_at": "2026-08-05T20:54:46.722005",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Technology +5.8%, Energy -2.8%"
   },
   "volatility_SECTORS_2026-08-05_83aff603f812": {
     "expires_at": 1786561820.3799987,
