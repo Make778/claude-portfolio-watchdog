@@ -199,30 +199,6 @@
     "ticker": "GOOGL",
     "title": "GOOGL: упал на 3.75%"
   },
-  "price_META_2026-07-30_179d8e811b73": {
-    "expires_at": 1786047034.3435233,
-    "sent_at": "2026-07-30T20:10:34.343512",
-    "severity": "high",
-    "signal_type": "price",
-    "ticker": "META",
-    "title": "META: упал на 7.95%"
-  },
-  "price_META_2026-07-30_940b74aae8cb": {
-    "expires_at": 1786033552.0532937,
-    "sent_at": "2026-07-30T16:25:52.053283",
-    "severity": "high",
-    "signal_type": "price",
-    "ticker": "META",
-    "title": "META: упал на 9.09%"
-  },
-  "price_META_2026-07-30_c01ad965f9d3": {
-    "expires_at": 1786039692.704207,
-    "sent_at": "2026-07-30T18:08:12.704195",
-    "severity": "high",
-    "signal_type": "price",
-    "ticker": "META",
-    "title": "META: упал на 9.16%"
-  },
   "price_META_2026-07-31_65be73fa0d43": {
     "expires_at": 1786135862.9124804,
     "sent_at": "2026-07-31T20:51:02.912472",
@@ -262,30 +238,6 @@
     "signal_type": "price",
     "ticker": "META",
     "title": "META: вырос на 6.16%"
-  },
-  "price_MSFT_2026-07-30_4aa1eeccbd46": {
-    "expires_at": 1786047034.1712136,
-    "sent_at": "2026-07-30T20:10:34.171202",
-    "severity": "critical",
-    "signal_type": "price",
-    "ticker": "MSFT",
-    "title": "MSFT: вырос на 15.51%"
-  },
-  "price_MSFT_2026-07-30_bbd58b519429": {
-    "expires_at": 1786033551.8783226,
-    "sent_at": "2026-07-30T16:25:51.878311",
-    "severity": "critical",
-    "signal_type": "price",
-    "ticker": "MSFT",
-    "title": "MSFT: вырос на 16.54%"
-  },
-  "price_MSFT_2026-07-30_cb85bbf6b975": {
-    "expires_at": 1786039692.579015,
-    "sent_at": "2026-07-30T18:08:12.579003",
-    "severity": "critical",
-    "signal_type": "price",
-    "ticker": "MSFT",
-    "title": "MSFT: вырос на 16.78%"
   },
   "price_MSFT_2026-07-31_d374618fec92": {
     "expires_at": 1786135862.5677276,
@@ -383,22 +335,6 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.34%"
   },
-  "price_TSLA_2026-07-30_696c292225ed": {
-    "expires_at": 1786039692.8272893,
-    "sent_at": "2026-07-30T18:08:12.827277",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "TSLA",
-    "title": "TSLA: вырос на 3.06%"
-  },
-  "price_TSLA_2026-07-30_7110f4015571": {
-    "expires_at": 1786047034.513327,
-    "sent_at": "2026-07-30T20:10:34.513315",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "TSLA",
-    "title": "TSLA: вырос на 3.53%"
-  },
   "price_TSLA_2026-08-03_5f352b07d330": {
     "expires_at": 1786395154.1966255,
     "sent_at": "2026-08-03T20:52:34.196619",
@@ -430,30 +366,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.64%"
-  },
-  "volatility_SECTORS_2026-07-30_236419d61350": {
-    "expires_at": 1786047034.8649883,
-    "sent_at": "2026-07-30T20:10:34.864977",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Discretionary +2.8%, Utilities -3.5%"
-  },
-  "volatility_SECTORS_2026-07-30_6a016ebbd247": {
-    "expires_at": 1786039692.9450834,
-    "sent_at": "2026-07-30T18:08:12.945072",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Discretionary +2.6%, Utilities -3.6%"
-  },
-  "volatility_SECTORS_2026-07-30_aaf1d0c1bd41": {
-    "expires_at": 1786033552.23742,
-    "sent_at": "2026-07-30T16:25:52.237410",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Discretionary +2.6%, Utilities -3.9%"
   },
   "volatility_SECTORS_2026-07-31_03755b9552fb": {
     "expires_at": 1786129442.873483,
@@ -591,12 +503,12 @@
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +6.2%, Energy -2.9%"
   },
-  "volatility_^VIX_2026-07-30_2f38781daa2f": {
-    "expires_at": 1786047034.6882374,
-    "sent_at": "2026-07-30T20:10:34.688226",
-    "severity": "medium",
+  "volatility_SECTORS_2026-08-06_e97dc935ffc0": {
+    "expires_at": 1786664834.436825,
+    "sent_at": "2026-08-06T23:47:14.436815",
+    "severity": "low",
     "signal_type": "volatility",
-    "ticker": "^VIX",
-    "title": "VIX = 17.5 (порог 25)"
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Technology +5.7%, Energy -2.3%"
   }
 }
