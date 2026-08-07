@@ -1,12 +1,4 @@
 {
-  "macro_MARKET_2026-07-31_f2e3c4350e0c": {
-    "expires_at": 1786115534.2932818,
-    "sent_at": "2026-07-31T15:12:14.293271",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "Non-Farm Payrolls (NFP) через 7 дн."
-  },
   "macro_MARKET_2026-08-03_8fb3f9bfd22e": {
     "expires_at": 1786376128.6259189,
     "sent_at": "2026-08-03T15:35:28.625907",
@@ -103,14 +95,6 @@
     "ticker": "MARKET",
     "title": "PPI Release через 5 дн."
   },
-  "price_AAPL_2026-07-31_2ad6b559f581": {
-    "expires_at": 1786115533.9855452,
-    "sent_at": "2026-07-31T15:12:13.985534",
-    "severity": "high",
-    "signal_type": "price",
-    "ticker": "AAPL",
-    "title": "AAPL: упал на 9.14%"
-  },
   "price_AAPL_2026-07-31_5ac53e4b97ec": {
     "expires_at": 1786135862.424062,
     "sent_at": "2026-07-31T20:51:02.424051",
@@ -158,14 +142,6 @@
     "signal_type": "price",
     "ticker": "GOOGL",
     "title": "GOOGL: вырос на 6.09%"
-  },
-  "price_GOOGL_2026-07-31_4d9c24fd3659": {
-    "expires_at": 1786115534.1555479,
-    "sent_at": "2026-07-31T15:12:14.155537",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "GOOGL",
-    "title": "GOOGL: вырос на 4.73%"
   },
   "price_GOOGL_2026-08-03_479d1dd195ee": {
     "expires_at": 1786376128.2233248,
@@ -391,6 +367,14 @@
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.64%"
   },
+  "price_TSLA_2026-08-07_58e916bfb6f3": {
+    "expires_at": 1786722135.7619123,
+    "sent_at": "2026-08-07T15:42:15.761899",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "TSLA",
+    "title": "TSLA: вырос на 3.74%"
+  },
   "volatility_SECTORS_2026-07-31_03755b9552fb": {
     "expires_at": 1786129442.873483,
     "sent_at": "2026-07-31T19:04:02.873473",
@@ -398,14 +382,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Consumer Discretionary +4.8%, Utilities -2.6%"
-  },
-  "volatility_SECTORS_2026-07-31_156b422cb53a": {
-    "expires_at": 1786115534.4622526,
-    "sent_at": "2026-07-31T15:12:14.462241",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Discretionary +4.3%, Utilities -2.5%"
   },
   "volatility_SECTORS_2026-07-31_6e194577f979": {
     "expires_at": 1786135863.0608249,
@@ -542,5 +518,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +4.9%, Energy -2.4%"
+  },
+  "volatility_SECTORS_2026-08-07_f7e74756d2f8": {
+    "expires_at": 1786722135.9194841,
+    "sent_at": "2026-08-07T15:42:15.919472",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Technology +5.3%, Energy -1.7%"
   }
 }
