@@ -247,6 +247,14 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.34%"
   },
+  "price_NVDA_2026-08-10_eba391683400": {
+    "expires_at": 1786984844.743905,
+    "sent_at": "2026-08-10T16:40:44.743895",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "NVDA",
+    "title": "NVDA: упал на 3.05%"
+  },
   "price_TSLA_2026-08-03_5f352b07d330": {
     "expires_at": 1786395154.1966255,
     "sent_at": "2026-08-03T20:52:34.196619",
@@ -454,6 +462,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Healthcare +3.1%, Utilities -2.2%"
+  },
+  "volatility_SECTORS_2026-08-10_a60cc01d80c9": {
+    "expires_at": 1786984845.5344121,
+    "sent_at": "2026-08-10T16:40:45.534402",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Healthcare +3.4%, Utilities -1.9%"
   },
   "volatility_SECTORS_2026-08-10_de1126a4a357": {
     "expires_at": 1786981629.9720237,
