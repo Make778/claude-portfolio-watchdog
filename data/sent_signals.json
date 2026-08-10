@@ -95,21 +95,21 @@
     "ticker": "MARKET",
     "title": "PPI Release через 5 дн."
   },
-  "price_AAPL_2026-07-31_5ac53e4b97ec": {
-    "expires_at": 1786135862.424062,
-    "sent_at": "2026-07-31T20:51:02.424051",
-    "severity": "high",
-    "signal_type": "price",
-    "ticker": "AAPL",
-    "title": "AAPL: упал на 7.35%"
+  "macro_MARKET_2026-08-10_027c61b14ef2": {
+    "expires_at": 1786975837.050558,
+    "sent_at": "2026-08-10T14:10:37.050548",
+    "severity": "medium",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "CPI Release завтра"
   },
-  "price_GOOGL_2026-07-31_05320fdaddea": {
-    "expires_at": 1786135862.7651224,
-    "sent_at": "2026-07-31T20:51:02.765114",
-    "severity": "high",
-    "signal_type": "price",
-    "ticker": "GOOGL",
-    "title": "GOOGL: вырос на 6.73%"
+  "macro_MARKET_2026-08-10_6d1d0563a2d2": {
+    "expires_at": 1786975837.2504988,
+    "sent_at": "2026-08-10T14:10:37.250489",
+    "severity": "low",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "PPI Release через 2 дн."
   },
   "price_GOOGL_2026-08-03_479d1dd195ee": {
     "expires_at": 1786376128.2233248,
@@ -167,14 +167,6 @@
     "ticker": "GOOGL",
     "title": "GOOGL: упал на 3.75%"
   },
-  "price_META_2026-07-31_65be73fa0d43": {
-    "expires_at": 1786135862.9124804,
-    "sent_at": "2026-07-31T20:51:02.912472",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "META",
-    "title": "META: вырос на 3.28%"
-  },
   "price_META_2026-08-03_0feb6e29e0a0": {
     "expires_at": 1786395154.0756884,
     "sent_at": "2026-08-03T20:52:34.075681",
@@ -206,14 +198,6 @@
     "signal_type": "price",
     "ticker": "META",
     "title": "META: вырос на 6.16%"
-  },
-  "price_MSFT_2026-07-31_d374618fec92": {
-    "expires_at": 1786135862.5677276,
-    "sent_at": "2026-07-31T20:51:02.567718",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "MSFT",
-    "title": "MSFT: вырос на 3.02%"
   },
   "price_MSFT_2026-08-03_48aeca7ae1d5": {
     "expires_at": 1786383566.425272,
@@ -350,14 +334,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.14%"
-  },
-  "volatility_SECTORS_2026-07-31_6e194577f979": {
-    "expires_at": 1786135863.0608249,
-    "sent_at": "2026-07-31T20:51:03.060816",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Consumer Discretionary +4.7%, Utilities -2.9%"
   },
   "volatility_SECTORS_2026-08-03_2a2477bc3b28": {
     "expires_at": 1786383567.3477051,
@@ -526,5 +502,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +5.3%, Energy -2.3%"
+  },
+  "volatility_SECTORS_2026-08-10_183976e8388a": {
+    "expires_at": 1786975837.4442976,
+    "sent_at": "2026-08-10T14:10:37.444289",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Healthcare +3.1%, Utilities -2.2%"
   }
 }
