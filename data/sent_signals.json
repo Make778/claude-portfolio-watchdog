@@ -127,6 +127,14 @@
     "ticker": "GOOGL",
     "title": "GOOGL: упал на 3.75%"
   },
+  "price_GOOGL_2026-08-11_49bd5fa60041": {
+    "expires_at": 1787078590.6988475,
+    "sent_at": "2026-08-11T18:43:10.698836",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "GOOGL",
+    "title": "GOOGL: упал на 3.43%"
+  },
   "price_NVDA_2026-08-05_559f2d14573f": {
     "expires_at": 1786561820.0420344,
     "sent_at": "2026-08-05T19:10:20.042027",
@@ -390,5 +398,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +5.5%, Real Estate -2.1%"
+  },
+  "volatility_SECTORS_2026-08-11_ea906fc02f29": {
+    "expires_at": 1787078590.8133934,
+    "sent_at": "2026-08-11T18:43:10.813382",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +6.2%, Real Estate -2.2%"
   }
 }
