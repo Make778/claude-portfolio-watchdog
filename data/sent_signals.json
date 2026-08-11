@@ -1,20 +1,4 @@
 {
-  "macro_MARKET_2026-08-04_74280fbe2031": {
-    "expires_at": 1786461285.5748847,
-    "sent_at": "2026-08-04T15:14:45.574874",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "Non-Farm Payrolls (NFP) через 3 дн."
-  },
-  "macro_MARKET_2026-08-04_a39089c28c86": {
-    "expires_at": 1786461285.7308214,
-    "sent_at": "2026-08-04T15:14:45.730811",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "CPI Release через 7 дн."
-  },
   "macro_MARKET_2026-08-05_472d796c1f3d": {
     "expires_at": 1786547164.6260314,
     "sent_at": "2026-08-05T15:06:04.626021",
@@ -199,14 +183,6 @@
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.14%"
   },
-  "volatility_SECTORS_2026-08-04_0b77bc659c52": {
-    "expires_at": 1786461285.8602066,
-    "sent_at": "2026-08-04T15:14:45.860195",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Technology +11.3%, Consumer Staples -3.3%"
-  },
   "volatility_SECTORS_2026-08-04_5904506890ef": {
     "expires_at": 1786475797.9216118,
     "sent_at": "2026-08-04T19:16:37.921604",
@@ -390,6 +366,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Healthcare +3.4%, Real Estate -2.0%"
+  },
+  "volatility_SECTORS_2026-08-11_37b57b0ce0e5": {
+    "expires_at": 1787068029.7650154,
+    "sent_at": "2026-08-11T15:47:09.764995",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +6.5%, Real Estate -2.2%"
   },
   "volatility_SECTORS_2026-08-11_d652062e6629": {
     "expires_at": 1787062215.9038842,
