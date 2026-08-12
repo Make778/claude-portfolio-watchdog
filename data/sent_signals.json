@@ -95,14 +95,6 @@
     "ticker": "GOOGL",
     "title": "GOOGL: упал на 4.03%"
   },
-  "price_GOOGL_2026-08-05_ed8389d98824": {
-    "expires_at": 1786561820.2065141,
-    "sent_at": "2026-08-05T19:10:20.206504",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "GOOGL",
-    "title": "GOOGL: упал на 4.32%"
-  },
   "price_GOOGL_2026-08-11_49bd5fa60041": {
     "expires_at": 1787078590.6988475,
     "sent_at": "2026-08-11T18:43:10.698836",
@@ -127,13 +119,13 @@
     "ticker": "GOOGL",
     "title": "GOOGL: упал на 3.84%"
   },
-  "price_NVDA_2026-08-05_559f2d14573f": {
-    "expires_at": 1786561820.0420344,
-    "sent_at": "2026-08-05T19:10:20.042027",
+  "price_META_2026-08-12_6eb62fb618c5": {
+    "expires_at": 1787169307.515841,
+    "sent_at": "2026-08-12T19:55:07.515826",
     "severity": "medium",
     "signal_type": "price",
-    "ticker": "NVDA",
-    "title": "NVDA: вырос на 4.69%"
+    "ticker": "META",
+    "title": "META: упал на 3.20%"
   },
   "price_NVDA_2026-08-05_ab3439e5dbfa": {
     "expires_at": 1786568086.3728886,
@@ -182,14 +174,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +5.8%, Energy -2.8%"
-  },
-  "volatility_SECTORS_2026-08-05_83aff603f812": {
-    "expires_at": 1786561820.3799987,
-    "sent_at": "2026-08-05T19:10:20.379991",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Technology +6.8%, Energy -2.5%"
   },
   "volatility_SECTORS_2026-08-06_d4e791c44a4d": {
     "expires_at": 1786633493.5558412,
@@ -390,6 +374,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.9%, Real Estate -0.8%"
+  },
+  "volatility_SECTORS_2026-08-12_5406ea494cd4": {
+    "expires_at": 1787169307.699573,
+    "sent_at": "2026-08-12T19:55:07.699563",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.8%, Real Estate -1.6%"
   },
   "volatility_SECTORS_2026-08-12_6253b3ec0d76": {
     "expires_at": 1787154442.9841871,
