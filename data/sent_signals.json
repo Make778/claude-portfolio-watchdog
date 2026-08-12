@@ -1,28 +1,4 @@
 {
-  "macro_MARKET_2026-08-05_472d796c1f3d": {
-    "expires_at": 1786547164.6260314,
-    "sent_at": "2026-08-05T15:06:04.626021",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "Non-Farm Payrolls (NFP) через 2 дн."
-  },
-  "macro_MARKET_2026-08-05_71f734315dbb": {
-    "expires_at": 1786547164.9970248,
-    "sent_at": "2026-08-05T15:06:04.997015",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "PPI Release через 7 дн."
-  },
-  "macro_MARKET_2026-08-05_bb971d3bb414": {
-    "expires_at": 1786547164.8235095,
-    "sent_at": "2026-08-05T15:06:04.823500",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "CPI Release через 6 дн."
-  },
   "macro_MARKET_2026-08-06_4a8c4e2305e6": {
     "expires_at": 1786633492.998946,
     "sent_at": "2026-08-06T15:04:52.998935",
@@ -183,14 +159,6 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.43%"
   },
-  "price_NVDA_2026-08-05_de1736129c46": {
-    "expires_at": 1786547164.4523363,
-    "sent_at": "2026-08-05T15:06:04.452325",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "NVDA",
-    "title": "NVDA: вырос на 3.34%"
-  },
   "price_NVDA_2026-08-10_eba391683400": {
     "expires_at": 1786984844.743905,
     "sent_at": "2026-08-10T16:40:44.743895",
@@ -214,14 +182,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.14%"
-  },
-  "volatility_SECTORS_2026-08-05_28a493fbd96c": {
-    "expires_at": 1786547165.2162583,
-    "sent_at": "2026-08-05T15:06:05.216247",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Technology +6.1%, Utilities -2.7%"
   },
   "volatility_SECTORS_2026-08-05_6f8653c98fdf": {
     "expires_at": 1786568086.7220206,
@@ -430,6 +390,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +6.2%, Real Estate -2.2%"
+  },
+  "volatility_SECTORS_2026-08-12_6253b3ec0d76": {
+    "expires_at": 1787154442.9841871,
+    "sent_at": "2026-08-12T15:47:22.984170",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.4%, Communications -0.9%"
   },
   "volatility_SECTORS_2026-08-12_c23a414afab5": {
     "expires_at": 1787148700.2344458,
