@@ -103,6 +103,14 @@
     "ticker": "MARKET",
     "title": "PPI Release завтра"
   },
+  "macro_MARKET_2026-08-12_6db1a7d4a75c": {
+    "expires_at": 1787148700.1016612,
+    "sent_at": "2026-08-12T14:11:40.101650",
+    "severity": "high",
+    "signal_type": "macro",
+    "ticker": "MARKET",
+    "title": "PPI Release сегодня"
+  },
   "price_GOOGL_2026-08-05_1c6adfdae05f": {
     "expires_at": 1786568086.5261717,
     "sent_at": "2026-08-05T20:54:46.526156",
@@ -206,14 +214,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.14%"
-  },
-  "volatility_SECTORS_2026-08-04_97c1d1d34581": {
-    "expires_at": 1786482038.0735667,
-    "sent_at": "2026-08-04T21:00:38.073556",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Technology +12.2%, Healthcare -2.5%"
   },
   "volatility_SECTORS_2026-08-05_28a493fbd96c": {
     "expires_at": 1786547165.2162583,
@@ -430,5 +430,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +6.2%, Real Estate -2.2%"
+  },
+  "volatility_SECTORS_2026-08-12_c23a414afab5": {
+    "expires_at": 1787148700.2344458,
+    "sent_at": "2026-08-12T14:11:40.234435",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.7%, Real Estate -1.3%"
   }
 }
