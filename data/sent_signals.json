@@ -1,28 +1,4 @@
 {
-  "macro_MARKET_2026-08-06_4a8c4e2305e6": {
-    "expires_at": 1786633492.998946,
-    "sent_at": "2026-08-06T15:04:52.998935",
-    "severity": "medium",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "Non-Farm Payrolls (NFP) завтра"
-  },
-  "macro_MARKET_2026-08-06_9e6ab22f8937": {
-    "expires_at": 1786633493.1847377,
-    "sent_at": "2026-08-06T15:04:53.184727",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "CPI Release через 5 дн."
-  },
-  "macro_MARKET_2026-08-06_dabd3a14f5ad": {
-    "expires_at": 1786633493.3746812,
-    "sent_at": "2026-08-06T15:04:53.374671",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "PPI Release через 6 дн."
-  },
   "macro_MARKET_2026-08-07_2b13735934e0": {
     "expires_at": 1786716235.5620801,
     "sent_at": "2026-08-07T14:03:55.562067",
@@ -166,14 +142,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.14%"
-  },
-  "volatility_SECTORS_2026-08-06_d4e791c44a4d": {
-    "expires_at": 1786633493.5558412,
-    "sent_at": "2026-08-06T15:04:53.555831",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Technology +6.2%, Energy -2.9%"
   },
   "volatility_SECTORS_2026-08-06_e97dc935ffc0": {
     "expires_at": 1786664834.436825,
@@ -414,5 +382,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.9%, Consumer Discretionary -0.9%"
+  },
+  "volatility_SECTORS_2026-08-13_a8a46168d1d5": {
+    "expires_at": 1787240765.4475918,
+    "sent_at": "2026-08-13T15:46:05.447581",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +6.0%, Consumer Discretionary -1.5%"
   }
 }
