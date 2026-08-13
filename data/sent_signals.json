@@ -143,6 +143,14 @@
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.14%"
   },
+  "price_TSLA_2026-08-13_c200067e45db": {
+    "expires_at": 1787251489.8091028,
+    "sent_at": "2026-08-13T18:44:49.809092",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "TSLA",
+    "title": "TSLA: вырос на 3.30%"
+  },
   "volatility_SECTORS_2026-08-06_e97dc935ffc0": {
     "expires_at": 1786664834.436825,
     "sent_at": "2026-08-06T23:47:14.436815",
@@ -382,6 +390,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.9%, Consumer Discretionary -0.9%"
+  },
+  "volatility_SECTORS_2026-08-13_9891b7e20fa9": {
+    "expires_at": 1787251489.9287832,
+    "sent_at": "2026-08-13T18:44:49.928772",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +5.9%, Consumer Discretionary -1.2%"
   },
   "volatility_SECTORS_2026-08-13_9d4e9062546a": {
     "expires_at": 1787244172.677711,
