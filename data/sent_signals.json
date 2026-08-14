@@ -103,14 +103,6 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.02%"
   },
-  "price_TSLA_2026-08-07_935c0aa8232c": {
-    "expires_at": 1786725551.9976408,
-    "sent_at": "2026-08-07T16:39:11.997629",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "TSLA",
-    "title": "TSLA: вырос на 3.14%"
-  },
   "price_TSLA_2026-08-13_8bd4ad586b74": {
     "expires_at": 1787255397.3784435,
     "sent_at": "2026-08-13T19:49:57.378434",
@@ -151,14 +143,6 @@
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +5.6%, Energy -2.2%"
   },
-  "volatility_SECTORS_2026-08-07_4c2fb9b260af": {
-    "expires_at": 1786729128.7859218,
-    "sent_at": "2026-08-07T17:38:48.785910",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Technology +5.2%, Energy -1.5%"
-  },
   "volatility_SECTORS_2026-08-07_7f0f003afe36": {
     "expires_at": 1786732604.5216353,
     "sent_at": "2026-08-07T18:36:44.521628",
@@ -166,14 +150,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +5.0%, Energy -1.9%"
-  },
-  "volatility_SECTORS_2026-08-07_8cd4f0bccd14": {
-    "expires_at": 1786725552.1773872,
-    "sent_at": "2026-08-07T16:39:12.177377",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Technology +5.2%, Energy -1.5%"
   },
   "volatility_SECTORS_2026-08-07_f8e3595280db": {
     "expires_at": 1786736555.1895547,
@@ -414,6 +390,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +2.9%, Consumer Discretionary -1.2%"
+  },
+  "volatility_SECTORS_2026-08-14_250a5e68c7a9": {
+    "expires_at": 1787334198.7227404,
+    "sent_at": "2026-08-14T17:43:18.722729",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.0%, Materials -1.3%"
   },
   "volatility_SECTORS_2026-08-14_3e6d312b91de": {
     "expires_at": 1787321218.0477839,
