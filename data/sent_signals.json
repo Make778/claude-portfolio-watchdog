@@ -63,13 +63,21 @@
     "ticker": "META",
     "title": "META: упал на 3.38%"
   },
-  "price_NVDA_2026-08-10_eba391683400": {
-    "expires_at": 1786984844.743905,
-    "sent_at": "2026-08-10T16:40:44.743895",
+  "price_META_2026-08-17_37be72467e88": {
+    "expires_at": 1787591774.372191,
+    "sent_at": "2026-08-17T17:16:14.372181",
     "severity": "medium",
     "signal_type": "price",
-    "ticker": "NVDA",
-    "title": "NVDA: упал на 3.05%"
+    "ticker": "META",
+    "title": "META: упал на 3.88%"
+  },
+  "price_MSFT_2026-08-17_d62af5cb273f": {
+    "expires_at": 1787591774.2147412,
+    "sent_at": "2026-08-17T17:16:14.214731",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "MSFT",
+    "title": "MSFT: упал на 3.15%"
   },
   "price_NVDA_2026-08-12_2ceb6f4b0ef2": {
     "expires_at": 1787171440.8466957,
@@ -142,14 +150,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Healthcare +3.6%, Utilities -2.2%"
-  },
-  "volatility_SECTORS_2026-08-10_a60cc01d80c9": {
-    "expires_at": 1786984845.5344121,
-    "sent_at": "2026-08-10T16:40:45.534402",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Healthcare +3.4%, Utilities -1.9%"
   },
   "volatility_SECTORS_2026-08-10_eb1dcb725257": {
     "expires_at": 1786988524.5213766,
@@ -414,5 +414,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +2.5%, Materials -2.0%"
+  },
+  "volatility_SECTORS_2026-08-17_f486f3b907aa": {
+    "expires_at": 1787591774.5351682,
+    "sent_at": "2026-08-17T17:16:14.535158",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +2.5%, Consumer Discretionary -2.1%"
   }
 }
