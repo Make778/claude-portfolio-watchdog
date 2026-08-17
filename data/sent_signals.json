@@ -1,20 +1,4 @@
 {
-  "macro_MARKET_2026-08-10_027c61b14ef2": {
-    "expires_at": 1786975837.050558,
-    "sent_at": "2026-08-10T14:10:37.050548",
-    "severity": "medium",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "CPI Release завтра"
-  },
-  "macro_MARKET_2026-08-10_6d1d0563a2d2": {
-    "expires_at": 1786975837.2504988,
-    "sent_at": "2026-08-10T14:10:37.250489",
-    "severity": "low",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "PPI Release через 2 дн."
-  },
   "macro_MARKET_2026-08-11_8f9bd84b457e": {
     "expires_at": 1787062215.6589186,
     "sent_at": "2026-08-11T14:10:15.658910",
@@ -142,14 +126,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Healthcare +3.9%, Utilities -2.2%"
-  },
-  "volatility_SECTORS_2026-08-10_183976e8388a": {
-    "expires_at": 1786975837.4442976,
-    "sent_at": "2026-08-10T14:10:37.444289",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Healthcare +3.1%, Utilities -2.2%"
   },
   "volatility_SECTORS_2026-08-10_26a95c06af5f": {
     "expires_at": 1786995969.504224,
@@ -422,5 +398,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Technology +2.6%, Materials -1.8%"
+  },
+  "volatility_SECTORS_2026-08-17_9098ed2f3672": {
+    "expires_at": 1787580977.1675,
+    "sent_at": "2026-08-17T14:16:17.167491",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Technology +2.5%, Materials -2.0%"
   }
 }
