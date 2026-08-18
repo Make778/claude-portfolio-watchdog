@@ -7,14 +7,6 @@
     "ticker": "MARKET",
     "title": "PPI Release сегодня"
   },
-  "price_GOOGL_2026-08-11_49bd5fa60041": {
-    "expires_at": 1787078590.6988475,
-    "sent_at": "2026-08-11T18:43:10.698836",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "GOOGL",
-    "title": "GOOGL: упал на 3.43%"
-  },
   "price_GOOGL_2026-08-11_7692a4faeec0": {
     "expires_at": 1787082771.0954509,
     "sent_at": "2026-08-11T19:52:51.095440",
@@ -102,6 +94,14 @@
     "signal_type": "price",
     "ticker": "META",
     "title": "META: упал на 7.13%"
+  },
+  "price_META_2026-08-18_c9c45cb678fe": {
+    "expires_at": 1787685608.803659,
+    "sent_at": "2026-08-18T19:20:08.803649",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "META",
+    "title": "META: упал на 4.19%"
   },
   "price_META_2026-08-18_d3efff337360": {
     "expires_at": 1787664848.2792287,
@@ -214,14 +214,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +6.3%, Real Estate -2.5%"
-  },
-  "volatility_SECTORS_2026-08-11_ea906fc02f29": {
-    "expires_at": 1787078590.8133934,
-    "sent_at": "2026-08-11T18:43:10.813382",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +6.2%, Real Estate -2.2%"
   },
   "volatility_SECTORS_2026-08-12_1d7fcaf23e01": {
     "expires_at": 1787157841.0292792,
@@ -502,5 +494,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.1%, Technology -1.9%"
+  },
+  "volatility_SECTORS_2026-08-18_f6b867b2a55c": {
+    "expires_at": 1787685608.948668,
+    "sent_at": "2026-08-18T19:20:08.948657",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.3%, Technology -1.9%"
   }
 }
