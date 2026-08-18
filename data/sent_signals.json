@@ -79,6 +79,14 @@
     "ticker": "META",
     "title": "META: упал на 3.42%"
   },
+  "price_META_2026-08-18_28dbb078d0c9": {
+    "expires_at": 1787671191.735435,
+    "sent_at": "2026-08-18T15:19:51.735422",
+    "severity": "high",
+    "signal_type": "price",
+    "ticker": "META",
+    "title": "META: упал на 6.44%"
+  },
   "price_META_2026-08-18_a3c3a7ded4e8": {
     "expires_at": 1787667649.148816,
     "sent_at": "2026-08-18T14:20:49.148804",
@@ -462,6 +470,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +3.9%, Materials -2.1%"
+  },
+  "volatility_SECTORS_2026-08-18_77d80d166c03": {
+    "expires_at": 1787671191.8866735,
+    "sent_at": "2026-08-18T15:19:51.886660",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.0%, Materials -2.5%"
   },
   "volatility_SECTORS_2026-08-18_cff621ab3d1e": {
     "expires_at": 1787664848.4130876,
