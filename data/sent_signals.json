@@ -1,20 +1,4 @@
 {
-  "macro_MARKET_2026-08-11_8f9bd84b457e": {
-    "expires_at": 1787062215.6589186,
-    "sent_at": "2026-08-11T14:10:15.658910",
-    "severity": "high",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "CPI Release сегодня"
-  },
-  "macro_MARKET_2026-08-11_d2c46a1d6a80": {
-    "expires_at": 1787062215.7848468,
-    "sent_at": "2026-08-11T14:10:15.784838",
-    "severity": "medium",
-    "signal_type": "macro",
-    "ticker": "MARKET",
-    "title": "PPI Release завтра"
-  },
   "macro_MARKET_2026-08-12_6db1a7d4a75c": {
     "expires_at": 1787148700.1016612,
     "sent_at": "2026-08-12T14:11:40.101650",
@@ -94,6 +78,14 @@
     "signal_type": "price",
     "ticker": "META",
     "title": "META: упал на 3.42%"
+  },
+  "price_META_2026-08-18_a3c3a7ded4e8": {
+    "expires_at": 1787667649.148816,
+    "sent_at": "2026-08-18T14:20:49.148804",
+    "severity": "high",
+    "signal_type": "price",
+    "ticker": "META",
+    "title": "META: упал на 7.13%"
   },
   "price_META_2026-08-18_d3efff337360": {
     "expires_at": 1787664848.2792287,
@@ -222,14 +214,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +6.3%, Real Estate -2.5%"
-  },
-  "volatility_SECTORS_2026-08-11_d652062e6629": {
-    "expires_at": 1787062215.9038842,
-    "sent_at": "2026-08-11T14:10:15.903875",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +5.5%, Real Estate -2.1%"
   },
   "volatility_SECTORS_2026-08-11_ea906fc02f29": {
     "expires_at": 1787078590.8133934,
@@ -470,6 +454,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +2.7%, Consumer Discretionary -2.1%"
+  },
+  "volatility_SECTORS_2026-08-18_1b9b25f508d2": {
+    "expires_at": 1787667649.3037894,
+    "sent_at": "2026-08-18T14:20:49.303780",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +3.9%, Materials -2.1%"
   },
   "volatility_SECTORS_2026-08-18_cff621ab3d1e": {
     "expires_at": 1787664848.4130876,
