@@ -95,6 +95,14 @@
     "ticker": "META",
     "title": "META: упал на 3.42%"
   },
+  "price_META_2026-08-18_d3efff337360": {
+    "expires_at": 1787664848.2792287,
+    "sent_at": "2026-08-18T13:34:08.279218",
+    "severity": "high",
+    "signal_type": "price",
+    "ticker": "META",
+    "title": "META: упал на 6.38%"
+  },
   "price_MSFT_2026-08-17_1dd2aac388e9": {
     "expires_at": 1787602406.2403452,
     "sent_at": "2026-08-17T20:13:26.240337",
@@ -118,6 +126,14 @@
     "signal_type": "price",
     "ticker": "MSFT",
     "title": "MSFT: упал на 3.15%"
+  },
+  "price_MSFT_2026-08-18_db9781364589": {
+    "expires_at": 1787664848.1405075,
+    "sent_at": "2026-08-18T13:34:08.140497",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "MSFT",
+    "title": "MSFT: упал на 3.60%"
   },
   "price_NVDA_2026-08-12_2ceb6f4b0ef2": {
     "expires_at": 1787171440.8466957,
@@ -166,14 +182,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.06%"
-  },
-  "volatility_SECTORS_2026-08-10_0732c24c1ee1": {
-    "expires_at": 1786998557.5044668,
-    "sent_at": "2026-08-10T20:29:17.504458",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Healthcare +3.9%, Utilities -2.2%"
   },
   "volatility_SECTORS_2026-08-11_15ad9b4db51c": {
     "expires_at": 1787075172.2157466,
@@ -462,5 +470,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +2.7%, Consumer Discretionary -2.1%"
+  },
+  "volatility_SECTORS_2026-08-18_cff621ab3d1e": {
+    "expires_at": 1787664848.4130876,
+    "sent_at": "2026-08-18T13:34:08.413077",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.5%, Consumer Discretionary -2.5%"
   }
 }
