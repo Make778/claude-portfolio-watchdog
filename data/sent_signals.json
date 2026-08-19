@@ -143,14 +143,6 @@
     "ticker": "NVDA",
     "title": "NVDA: вырос на 3.03%"
   },
-  "price_NVDA_2026-08-12_2d561dc84fd6": {
-    "expires_at": 1787161724.997247,
-    "sent_at": "2026-08-12T17:48:44.997237",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "NVDA",
-    "title": "NVDA: вырос на 3.02%"
-  },
   "price_TSLA_2026-08-13_8bd4ad586b74": {
     "expires_at": 1787255397.3784435,
     "sent_at": "2026-08-13T19:49:57.378434",
@@ -183,6 +175,14 @@
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.06%"
   },
+  "price_TSLA_2026-08-19_563db88b848c": {
+    "expires_at": 1787768173.0240867,
+    "sent_at": "2026-08-19T18:16:13.024077",
+    "severity": "medium",
+    "signal_type": "price",
+    "ticker": "TSLA",
+    "title": "TSLA: вырос на 3.19%"
+  },
   "price_TSLA_2026-08-19_f8bdea7ef03c": {
     "expires_at": 1787761047.0785227,
     "sent_at": "2026-08-19T16:17:27.078511",
@@ -214,14 +214,6 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.8%, Real Estate -1.6%"
-  },
-  "volatility_SECTORS_2026-08-12_98ec095d1159": {
-    "expires_at": 1787161725.2520387,
-    "sent_at": "2026-08-12T17:48:45.252028",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +4.7%, Real Estate -1.7%"
   },
   "volatility_SECTORS_2026-08-13_38a504d75e63": {
     "expires_at": 1787235180.8054152,
@@ -462,6 +454,14 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.3%, Technology -1.9%"
+  },
+  "volatility_SECTORS_2026-08-19_0aa7be388146": {
+    "expires_at": 1787768173.2867072,
+    "sent_at": "2026-08-19T18:16:13.286698",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Energy +4.3%, Technology -3.8%"
   },
   "volatility_SECTORS_2026-08-19_1624720ddd55": {
     "expires_at": 1787761047.370854,
