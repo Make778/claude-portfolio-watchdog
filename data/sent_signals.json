@@ -1,12 +1,4 @@
 {
-  "price_META_2026-08-12_dac95200cae9": {
-    "expires_at": 1787171441.0101924,
-    "sent_at": "2026-08-12T20:30:41.010183",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "META",
-    "title": "META: упал на 3.38%"
-  },
   "price_META_2026-08-17_37be72467e88": {
     "expires_at": 1787591774.372191,
     "sent_at": "2026-08-17T17:16:14.372181",
@@ -127,14 +119,6 @@
     "ticker": "MSFT",
     "title": "MSFT: упал на 3.60%"
   },
-  "price_NVDA_2026-08-12_2ceb6f4b0ef2": {
-    "expires_at": 1787171440.8466957,
-    "sent_at": "2026-08-12T20:30:40.846675",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "NVDA",
-    "title": "NVDA: вырос на 3.03%"
-  },
   "price_TSLA_2026-08-13_8bd4ad586b74": {
     "expires_at": 1787255397.3784435,
     "sent_at": "2026-08-13T19:49:57.378434",
@@ -198,14 +182,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.43%"
-  },
-  "volatility_SECTORS_2026-08-12_2b9cd88dbff0": {
-    "expires_at": 1787171441.1570365,
-    "sent_at": "2026-08-12T20:30:41.157025",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +4.9%, Communications -0.8%"
   },
   "volatility_SECTORS_2026-08-13_38a504d75e63": {
     "expires_at": 1787235180.8054152,
@@ -510,5 +486,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Energy +4.9%, Technology -4.3%"
+  },
+  "volatility_SECTORS_2026-08-20_76035120cacf": {
+    "expires_at": 1787837853.6573682,
+    "sent_at": "2026-08-20T13:37:33.657356",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Healthcare +4.0%, Technology -3.1%"
   }
 }
