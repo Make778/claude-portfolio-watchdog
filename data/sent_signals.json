@@ -119,14 +119,6 @@
     "ticker": "MSFT",
     "title": "MSFT: упал на 3.60%"
   },
-  "price_TSLA_2026-08-13_b9729ba37042": {
-    "expires_at": 1787257690.2234724,
-    "sent_at": "2026-08-13T20:28:10.223460",
-    "severity": "medium",
-    "signal_type": "price",
-    "ticker": "TSLA",
-    "title": "TSLA: вырос на 3.80%"
-  },
   "price_TSLA_2026-08-14_ce0458a2df0f": {
     "expires_at": 1787321217.881454,
     "sent_at": "2026-08-14T14:06:57.881446",
@@ -166,14 +158,6 @@
     "signal_type": "price",
     "ticker": "TSLA",
     "title": "TSLA: вырос на 3.43%"
-  },
-  "volatility_SECTORS_2026-08-13_3b4fb0396a12": {
-    "expires_at": 1787257690.4090493,
-    "sent_at": "2026-08-13T20:28:10.409036",
-    "severity": "low",
-    "signal_type": "volatility",
-    "ticker": "SECTORS",
-    "title": "Sector rotation: Energy +6.2%, Consumer Discretionary -1.2%"
   },
   "volatility_SECTORS_2026-08-14_10f4a5261309": {
     "expires_at": 1787326809.365541,
@@ -486,5 +470,13 @@
     "signal_type": "volatility",
     "ticker": "SECTORS",
     "title": "Sector rotation: Healthcare +3.8%, Technology -3.7%"
+  },
+  "volatility_SECTORS_2026-08-21_567f0c5b72bd": {
+    "expires_at": 1787924192.493686,
+    "sent_at": "2026-08-21T13:36:32.493674",
+    "severity": "low",
+    "signal_type": "volatility",
+    "ticker": "SECTORS",
+    "title": "Sector rotation: Healthcare +3.6%, Technology -3.6%"
   }
 }
